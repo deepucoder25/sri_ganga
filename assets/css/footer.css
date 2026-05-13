@@ -6,7 +6,6 @@
   border-image: var(--grad-main) 1;
   color: var(--text-main);
   position: relative;
-  margin-top: 50px;
 }
 
 .footer-container {
@@ -47,7 +46,6 @@
   color: var(--text-alt);
   line-height: 1.8;
   margin-bottom: 20px;
-  font-size: 0.95rem;
 }
 
 .footer-links {
@@ -61,7 +59,6 @@
 .footer-links a {
   text-decoration: none;
   color: var(--text-alt);
-  font-size: 0.9rem;
   font-weight: 500;
   transition: var(--transition-smooth);
   display: flex;

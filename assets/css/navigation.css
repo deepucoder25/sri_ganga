@@ -43,12 +43,12 @@
 }
 
 .sg-top-link i {
-  color: var(--p-purple);
+  color: var(--p-blue);
   font-size: 0.85rem;
 }
 
 .sg-top-link:hover {
-  color: var(--p-purple);
+  color: var(--p-orange);
 }
 
 .sg-trust-badge {
@@ -125,7 +125,7 @@
 }
 
 .sg-nav-link:hover {
-  color: var(--p-pink);
+  color: var(--p-blue);
 }
 
 .sg-nav-link:hover::after {
@@ -144,7 +144,7 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   transition: var(--transition-smooth);
-  box-shadow: 0 8px 20px rgba(220, 36, 48, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 86, 179, 0.2);
   display: flex;
   align-items: center;
   gap: 12px;
@@ -153,7 +153,7 @@
 
 .sg-cta-btn:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 12px 25px rgba(220, 36, 48, 0.4);
+  box-shadow: 0 12px 25px rgba(0, 86, 179, 0.4);
   background: var(--grad-hover);
 }
 
@@ -164,11 +164,11 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--p-purple);
+  color: var(--p-blue);
 }
 
 .sg-spacer {
-  height: 120px;
+  height: 100px;
 }
 
 @media (max-width: 1100px) {

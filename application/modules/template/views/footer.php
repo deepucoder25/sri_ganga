@@ -3,7 +3,7 @@
         <div class="footer-grid">
             <!-- About Column -->
             <div class="footer-col footer-about">
-                <h4>Sri Ganga</h4>
+                <h4>eGati Relocation</h4>
                 <p>Leading packers and movers service provider in India, offering premium moving and storage solutions with a focus on safety, efficiency, and customer satisfaction.</p>
                 <div class="footer-social">
                     <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -60,7 +60,7 @@
     <div class="footer-bottom">
         <div class="footer-bottom-container">
             <div class="footer-copy">
-                &copy; <?= date('Y') ?> <strong>Sri Ganga Packers & Movers</strong>. All rights reserved.
+                &copy; <?= date('Y') ?> <strong>eGati Relocation Packers & Movers</strong>. All rights reserved.
             </div>
             <div class="footer-bottom-links">
                 <a href="#">Privacy Policy</a>

@@ -22,7 +22,7 @@
     <nav class="sg-navbar">
         <div class="sg-nav-container">
             <a href="<?= base_url() ?>" class="sg-logo">
-                <img src="<?= base_url('assets/images/logo.png') ?>" alt="SRI GANGA">
+                <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION">
             </a>
 
             <ul class="sg-nav-menu">
