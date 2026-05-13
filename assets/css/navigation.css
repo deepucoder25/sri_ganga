@@ -1,0 +1,184 @@
+/* --- The Ultimate Full-Width Header --- */
+.sg-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+  transition: var(--transition-smooth);
+}
+
+/* Elegant Thin Top Bar */
+.sg-top-bar {
+  background: #f9fafb;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 6px 0;
+}
+
+.sg-top-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sg-top-left {
+  display: flex;
+  gap: 25px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-alt);
+  letter-spacing: 0.5px;
+}
+
+.sg-top-link {
+  color: var(--text-alt);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition-smooth);
+}
+
+.sg-top-link i {
+  color: var(--p-purple);
+  font-size: 0.85rem;
+}
+
+.sg-top-link:hover {
+  color: var(--p-purple);
+}
+
+.sg-trust-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--grad-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Frosted Glass Navbar */
+.sg-navbar {
+  background: var(--nav-bg);
+  backdrop-filter: blur(var(--nav-blur));
+  -webkit-backdrop-filter: blur(var(--nav-blur));
+  padding: 15px 0;
+  border-bottom: 2px solid transparent;
+  border-image: var(--grad-main) 1;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.sg-nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sg-logo {
+  transition: var(--transition-smooth);
+}
+
+.sg-logo img {
+  height: 55px;
+  width: auto;
+}
+
+.sg-logo:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px rgba(123, 67, 151, 0.2));
+}
+
+.sg-nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.sg-nav-link {
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-smooth);
+  position: relative;
+  padding: 5px 0;
+}
+
+.sg-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--grad-main);
+  transition: var(--transition-smooth);
+}
+
+.sg-nav-link:hover {
+  color: var(--p-pink);
+}
+
+.sg-nav-link:hover::after {
+  width: 100%;
+}
+
+/* Premium Button Design */
+.sg-cta-btn {
+  background: var(--grad-main);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: var(--transition-smooth);
+  box-shadow: 0 8px 20px rgba(220, 36, 48, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
+}
+
+.sg-cta-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(220, 36, 48, 0.4);
+  background: var(--grad-hover);
+}
+
+/* Mobile Controls */
+.sg-mobile-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--p-purple);
+}
+
+.sg-spacer {
+  height: 120px;
+}
+
+@media (max-width: 1100px) {
+  .sg-nav-menu, .sg-cta-btn, .sg-top-left span:not(:first-child) {
+    display: none;
+  }
+  .sg-mobile-toggle {
+    display: block;
+  }
+  .sg-navbar {
+    padding: 10px 0;
+  }
+}

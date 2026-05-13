@@ -1,4 +1,19 @@
-/* ----- GLOBAL RESET & PREMIUM STYLE (CSS ONLY ANIMATIONS) ----- */
+@import "navigation.css";
+@import "footer.css";
+
+:root {
+  --p-purple: #7b4397;
+  --p-pink: #dc2430;
+  --p-blue: #00d2ff;
+  --nav-bg: rgba(255, 255, 255, 0.85);
+  --nav-blur: 15px;
+  --text-main: #1a1a2e;
+  --text-alt: #64748b;
+  --grad-main: linear-gradient(90deg, var(--p-purple), var(--p-pink), var(--p-blue));
+  --grad-hover: linear-gradient(135deg, var(--p-pink), var(--p-purple));
+  --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +21,12 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: #F9FAFE;
+  font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+  background-color: #f0f2f5;
+  color: var(--text-main);
   overflow-x: hidden;
 }
+
+
+
+
