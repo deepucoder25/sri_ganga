@@ -27,53 +27,19 @@
             <!-- Right Side: Accordion -->
             <div class="col-lg-7">
                 <div class="faq-accordion-wrapper">
-                    <!-- Item 1 -->
-                    <div class="faq-acc-item active" data-aos="fade-up" data-aos-delay="100">
+                    <?php if(!empty($faqs)): foreach($faqs as $index => $item): ?>
+                    <!-- Item <?= $index + 1 ?> -->
+                    <div class="faq-acc-item <?= ($index === 0) ? 'active' : '' ?>" data-aos="fade-up" data-aos-delay="<?= ($index + 1) * 100 ?>">
                         <div class="faq-acc-header">
-                            <span class="acc-num">01</span>
-                            <h4>How are tariffs calculated?</h4>
+                            <span class="acc-num"><?= str_pad($index + 1, 2, '0', STR_PAD_LEFT) ?></span>
+                            <h4><?= $item['question'] ?></h4>
                             <div class="acc-icon-plus"></div>
                         </div>
                         <div class="faq-acc-body">
-                            <p>Our algorithmic pricing engine considers asset volume, transit distance, specialized resource requirements, and insurance value to provide a precise, transparent quote with no hidden charges.</p>
+                            <p><?= $item['answer'] ?></p>
                         </div>
                     </div>
-
-                    <!-- Item 2 -->
-                    <div class="faq-acc-item" data-aos="fade-up" data-aos-delay="200">
-                        <div class="faq-acc-header">
-                            <span class="acc-num">02</span>
-                            <h4>What is asset protection protocol?</h4>
-                            <div class="acc-icon-plus"></div>
-                        </div>
-                        <div class="faq-acc-body">
-                            <p>We provide comprehensive multi-layer transit insurance and utilize impact-resistant industrial grade materials for all assets to ensure 100% safety during the entire relocation process.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="faq-acc-item" data-aos="fade-up" data-aos-delay="300">
-                        <div class="faq-acc-header">
-                            <span class="acc-num">03</span>
-                            <h4>Do you handle vehicle logistics?</h4>
-                            <div class="acc-icon-plus"></div>
-                        </div>
-                        <div class="faq-acc-body">
-                            <p>Yes, we utilize specialized closed-container carriers with advanced security systems for car and bike transportation across any distance, ensuring scratch-free delivery.</p>
-                        </div>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="faq-acc-item" data-aos="fade-up" data-aos-delay="400">
-                        <div class="faq-acc-header">
-                            <span class="acc-num">04</span>
-                            <h4>International Relocation services?</h4>
-                            <div class="acc-icon-plus"></div>
-                        </div>
-                        <div class="faq-acc-body">
-                            <p>We offer full-scale international moving solutions including customs clearance, port logistics, and door-to-door delivery worldwide with real-time global tracking.</p>
-                        </div>
-                    </div>
+                    <?php endforeach; endif; ?>
                 </div>
             </div>
         </div>

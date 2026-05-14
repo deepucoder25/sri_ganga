@@ -26,11 +26,12 @@
             </a>
 
             <ul class="sg-nav-menu">
-                <li><a href="<?= base_url() ?>" class="sg-nav-link">Home</a></li>
-                <li><a href="<?= base_url('services') ?>" class="sg-nav-link">Services</a></li>
-                <li><a href="<?= base_url('gallery') ?>" class="sg-nav-link">Gallery</a></li>
-                <li><a href="<?= base_url('about') ?>" class="sg-nav-link">About</a></li>
-                <li><a href="<?= base_url('contact') ?>" class="sg-nav-link">Contact</a></li>
+                <li><a href="<?= site_url() ?>" class="sg-nav-link">Home</a></li>
+                <li><a href="<?= site_url('services') ?>" class="sg-nav-link">Services</a></li>
+                <li><a href="<?= site_url('gallery') ?>" class="sg-nav-link">Gallery</a></li>
+                <li><a href="<?= site_url('about') ?>" class="sg-nav-link">About</a></li>
+                <li><a href="<?= site_url('branches') ?>" class="sg-nav-link">Our Branches</a></li>
+                <li><a href="<?= site_url('contact') ?>" class="sg-nav-link">Contact</a></li>
             </ul>
 
             <a href="<?= base_url('contact') ?>" class="sg-cta-btn">
@@ -74,4 +75,4 @@
 </script>
 
 
-
+

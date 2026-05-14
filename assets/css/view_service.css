@@ -1,0 +1,460 @@
+/* --- City Page Unique Process Styles --- */
+.city-process-section {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.city-roadmap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.roadmap-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap-icon-wrap {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 14px auto 9px
+}
+
+.roadmap-icon {
+    width: 70%;
+    height: 70%;
+    background: #f8fafc;
+    border: 2px solid #edf2f7;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--primary);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.03);
+}
+
+.roadmap-number {
+    position: absolute;
+    top: -1px;
+    right: 12px;
+    width: 29px;
+    height: 29px;
+    background: var(--grad);
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 800;
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+}
+
+.roadmap-content h4 {
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    color: var(--dark);
+}
+
+.roadmap-content p {
+    color: #64748b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Connectors */
+.roadmap-connector {
+    position: absolute;
+    top: 50px;
+    left: calc(50% + 50px);
+    width: calc(100% - 100px);
+    height: 2px;
+    background: repeating-linear-gradient(to right, #edf2f7 0, #edf2f7 10px, transparent 10px, transparent 20px);
+    z-index: -1;
+}
+
+/* Hover Effects */
+.roadmap-step:hover .roadmap-icon {
+    transform: translateY(-10px) rotate(5deg);
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .city-roadmap {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .roadmap-step {
+        display: flex;
+        text-align: left;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .roadmap-icon-wrap {
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .roadmap-connector {
+        left: 50px;
+        top: 100px;
+        width: 2px;
+        height: 50px;
+        background: repeating-linear-gradient(to bottom, #edf2f7 0, #edf2f7 10px, transparent 10px, transparent 20px);
+    }
+}
+
+/* --- Why Choose Us Section Styles --- */
+.city-why-section {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.why-content-wrap {
+    padding-right: 30px;
+}
+
+.why-feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.why-feature-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.why-feature-icon {
+    width: 55px;
+    height: 55px;
+    background: #f8fafc;
+    border: 1px solid #edf2f7;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.why-feature-item:hover .why-feature-icon {
+    background: var(--primary);
+    color: #fff;
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+}
+
+.why-feature-text h6 {
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: var(--dark);
+}
+
+.why-feature-text p {
+    color: #64748b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Image Wrapper */
+.why-image-wrapper {
+    position: relative;
+    padding: 20px;
+}
+
+.why-image-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.why-image-inner img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.why-floating-badge {
+    position: absolute;
+    bottom: 40px;
+    left: -30px;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: float 5s ease-in-out infinite;
+    z-index: 3;
+}
+
+.badge-icon {
+    width: 45px;
+    height: 45px;
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.badge-text strong {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--dark);
+}
+
+.badge-text span {
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 600;
+}
+
+.why-shape-bg {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    background: var(--grad);
+    border-radius: 30px;
+    opacity: 0.05;
+    z-index: 1;
+    transform: rotate(3deg);
+}
+
+@media (max-width: 991px) {
+    .why-content-wrap { padding-right: 0; }
+    .why-floating-badge { left: 20px; bottom: 20px; }
+}
+
+/* --- Precision Pricing Matrix Styles --- */
+.pricing-matrix-wrapper {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+    border: 1px solid #f1f5f9;
+}
+
+.matrix-main-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 5px;
+}
+
+.matrix-subtitle {
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.matrix-badge {
+    background: #fbbf24; /* Vibrant Amber */
+    color: var(--dark);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(251, 191, 36, 0.3);
+}
+
+.matrix-table-container {
+    border-radius: 15px;
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) #f1f5f9;
+}
+
+/* Custom Scrollbar for Matrix */
+.matrix-table-container::-webkit-scrollbar {
+    height: 6px;
+}
+.matrix-table-container::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+.matrix-table-container::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+.matrix-table {
+    margin: 0;
+    min-width: 800px; /* Force scroll on mobile */
+}
+
+.matrix-h-cell {
+    background: var(--primary) !important;
+    color: #fff !important;
+    padding: 20px !important;
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none !important;
+    white-space: nowrap;
+}
+
+.matrix-table tbody td {
+    padding: 22px 20px !important;
+    vertical-align: middle;
+    font-weight: 700;
+    color: #475569;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.matrix-type-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.matrix-type-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--light);
+    color: var(--primary);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.matrix-table tr:hover .matrix-type-icon {
+    background: var(--primary);
+    color: #fff;
+    transform: rotate(5deg) scale(1.1);
+}
+
+.matrix-type-box span {
+    font-weight: 800;
+    color: var(--dark);
+    font-size: 1rem;
+}
+
+.matrix-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+.matrix-call-btn {
+    background: var(--grad);
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: none;
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+}
+
+.matrix-call-btn:hover {
+    transform: scale(1.05) translateY(-3px);
+    color: #fff;
+    box-shadow: 0 15px 30px rgba(99, 102, 241, 0.4);
+}
+
+@media (max-width: 991px) {
+    .pricing-matrix-wrapper {
+        padding: 25px 15px;
+    }
+    .matrix-top-bar {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 20px;
+    }
+    .matrix-badge {
+        align-self: flex-start;
+    }
+    .matrix-main-title {
+        font-size: 1.5rem;
+    }
+    /* Mobile Scroll Hint */
+    .matrix-table-container::after {
+        content: '← Swipe to view more →';
+        display: block;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #94a3b8;
+        padding: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
+/* --- Simplified Centered Keywords --- */
+.keywords-simple-wrapper {
+    padding: 20px 0;
+}
+
+.keyword-main-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.keyword-main-title span {
+    color: var(--primary);
+}
+
+.keyword-tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.k-tag {
+    background: #fff;
+    color: #64748b;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    cursor: default;
+}
+
+.k-tag:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.15);
+}
