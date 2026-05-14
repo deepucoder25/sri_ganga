@@ -1,7 +1,7 @@
 @import "navigation.css";
 @import "footer.css";
 @import "slider.css";
-
+@import "home.css";
 
 
 :root {
@@ -30,7 +30,3 @@ body {
   color: var(--text-main);
   overflow-x: hidden;
 }
-
-
-
-
