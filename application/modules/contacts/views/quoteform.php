@@ -87,7 +87,7 @@
             <button id="submitbquoteform" type="submit"
                 class="theme-btn submit-btn flex-grow-1">
                 <span>Get Free Quote</span>
-                <i class="bi bi-arrow-right-circle-fill"></i>
+                <i class="bi bi-arrow-right-circle"></i>
             </button>
 
         </div>
