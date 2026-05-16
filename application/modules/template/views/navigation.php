@@ -1,3 +1,4 @@
+<body>
 <header class="sg-header">
     <!-- Premium Top Bar -->
     <div class="sg-top-bar">
