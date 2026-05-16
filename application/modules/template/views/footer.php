@@ -47,13 +47,13 @@
                 <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
                     <h5 class="footer-col-title">Our Services</h5>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Home Shifting</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Office Shifting</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Car Transportation</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Bike Transportation</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Packing & Unpacking</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Loading & Unloading</a></li>
-                        <li><a href="#"><i class="bi bi-chevron-right"></i> Storage Solutions</a></li>
+                        <li><a href="<?= site_url('home-shifting') ?>"><i class="bi bi-chevron-right"></i> Home Shifting</a></li>
+                        <li><a href="<?= site_url('office-shifting') ?>"><i class="bi bi-chevron-right"></i> Office Shifting</a></li>
+                        <li><a href="<?= site_url('car-transportation') ?>"><i class="bi bi-chevron-right"></i> Car Transportation</a></li>
+                        <li><a href="<?= site_url('bike-transportation') ?>"><i class="bi bi-chevron-right"></i> Bike Transportation</a></li>
+                        <li><a href="<?= site_url('packing-unpacking') ?>"><i class="bi bi-chevron-right"></i> Packing & Unpacking</a></li>
+                        <li><a href="<?= site_url('loading-unloading') ?>"><i class="bi bi-chevron-right"></i> Loading & Unloading</a></li>
+                        <li><a href="<?= site_url('storage-solutions') ?>"><i class="bi bi-chevron-right"></i> Storage Solutions</a></li>
                     </ul>
                 </div>
 
@@ -61,13 +61,13 @@
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                     <h5 class="footer-col-title">Our Branches</h5>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Patna</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Delhi</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Mumbai</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Bangalore</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Kolkata</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Hyderabad</a></li>
-                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Pune</a></li>
+                        <li><a href="<?= site_url('bihar') ?>"><i class="bi bi-geo-alt-fill"></i> Patna</a></li>
+                        <li><a href="<?= site_url('delhi') ?>"><i class="bi bi-geo-alt-fill"></i> Delhi</a></li>
+                        <li><a href="<?= site_url('maharashtra') ?>"><i class="bi bi-geo-alt-fill"></i> Mumbai</a></li>
+                        <li><a href="<?= site_url('karnataka') ?>"><i class="bi bi-geo-alt-fill"></i> Bangalore</a></li>
+                        <li><a href="<?= site_url('westbengal') ?>"><i class="bi bi-geo-alt-fill"></i> Kolkata</a></li>
+                        <li><a href="<?= site_url('telangana') ?>"><i class="bi bi-geo-alt-fill"></i> Hyderabad</a></li>
+                        <li><a href="<?= site_url('maharashtra') ?>"><i class="bi bi-geo-alt-fill"></i> Pune</a></li>
                     </ul>
                 </div>
 

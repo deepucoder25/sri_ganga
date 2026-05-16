@@ -1,0 +1,64 @@
+<div class="gallery-page-wrapper">
+    <!-- Hero Section -->
+    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1600');">
+        <div class="container text-center text-white py-5">
+            <h1 class="display-3 fw-bold mb-3">Our Work Gallery</h1>
+            <p class="lead mb-4">A glimpse into our professional packing and moving processes across India.</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="<?= site_url() ?>" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active text-warning" aria-current="page">Gallery</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <?php
+                $gallery_images = [
+                    'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1558981403-c5f91cbba527?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=600',
+                    'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600',
+                ];
+
+                foreach($gallery_images as $img):
+                ?>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
+                        <img src="<?= $img ?>" alt="Work Process" class="img-fluid gallery-img" loading="lazy">
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+.service-hero {
+    padding: 100px 0;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.gallery-item {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+}
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+</style>
