@@ -1,71 +1,149 @@
-<footer class="sg-footer">
-    <div class="footer-container">
-        <div class="footer-grid">
-            <!-- About Column -->
-            <div class="footer-col footer-about">
-                <h4>eGati Relocation</h4>
-                <p>Leading packers and movers service provider in India, offering premium moving and storage solutions with a focus on safety, efficiency, and customer satisfaction.</p>
-                <div class="footer-social">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+<footer class="eg-footer">
+    <div class="container">
+        <!-- Top Section: Features & About -->
+        <div class="footer-top">
+            <div class="row">
+                <!-- Column 1: About & Key Features -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="<?= base_url() ?>" class="footer-logo">
+                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION">
+                    </a>
+                    <p class="footer-about-text">
+                        India's most trusted packers and movers. We handle your precious belongings with zero-damage guarantee.
+                    </p>
+                    
+                    <div class="footer-features-list">
+                        <div class="footer-feature">
+                            <div class="feature-icon-circle"><i class="bi bi-shield-lock-fill"></i></div>
+                            <div class="feature-info">
+                                <h6>Safe & Insured</h6>
+                                <span>100% Zero-damage Guarantee</span>
+                            </div>
+                        </div>
+                        <div class="footer-feature">
+                            <div class="feature-icon-circle"><i class="bi bi-clock-history"></i></div>
+                            <div class="feature-info">
+                                <h6>On-Time Delivery</h6>
+                                <span>Punctual & Trackable Move</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4 col-6 mb-lg-0 ps-lg-5">
+                    <h5 class="footer-col-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="<?= site_url() ?>"><i class="bi bi-chevron-right"></i> Home</a></li>
+                        <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                        <li><a href="<?= site_url('services') ?>"><i class="bi bi-chevron-right"></i> Services</a></li>
+                        <li><a href="<?= site_url('gallery') ?>"><i class="bi bi-chevron-right"></i> Gallery</a></li>
+                        <li><a href="<?= site_url('branches') ?>"><i class="bi bi-chevron-right"></i> Our Branches</a></li>
+                        <li><a href="<?= site_url('contact') ?>"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Our Services -->
+                <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+                    <h5 class="footer-col-title">Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Home Shifting</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Office Shifting</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Car Transportation</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Bike Transportation</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Packing & Unpacking</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Loading & Unloading</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Storage Solutions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Our Branches -->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-col-title">Our Branches</h5>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Patna</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Delhi</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Mumbai</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Bangalore</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Kolkata</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Hyderabad</a></li>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Pune</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 5: Contact Us -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-col-title">Contact Us</h5>
+                    <a href="tel:<?= $phone ?>" class="contact-item-box text-decoration-none">
+                        <div class="contact-icon"><i class="bi bi-telephone-outbound-fill"></i></div>
+                        <div class="contact-text">
+                            <strong><?= $phone ?></strong>
+                            <span>Call Us Now</span>
+                        </div>
+                    </a>
+                    <a href="mailto:<?= $mail ?>" class="contact-item-box text-decoration-none">
+                        <div class="contact-icon"><i class="bi bi-envelope-at-fill"></i></div>
+                        <div class="contact-text">
+                            <strong><?= $mail ?></strong>
+                            <span>Mail Us</span>
+                        </div>
+                    </a>
+                    <div class="contact-item-box">
+                        <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="contact-text">
+                            <strong><?= $address1 ?>, <?= $addressRegion ?></strong>
+                            <span>Visit Our Office</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Quick Links -->
-            <div class="footer-col">
-                <h4>Quick Links</h4>
-                <ul class="footer-links">
-                    <li><a href="<?= site_url() ?>">Home</a></li>
-                    <li><a href="<?= site_url('about') ?>">About Us</a></li>
-                    <li><a href="<?= site_url('gallery') ?>">Gallery</a></li>
-                    <li><a href="<?= site_url('contact') ?>">Contact Us</a></li>
-                    <li><a href="<?= site_url('branches') ?>">Our Branches</a></li>
-                </ul>
-            </div>
-
-            <!-- Services -->
-            <div class="footer-col">
-                <h4>Our Services</h4>
-                <ul class="footer-links">
-                    <li><a href="#">Household Shifting</a></li>
-                    <li><a href="#">Office Relocation</a></li>
-                    <li><a href="#">Car Transportation</a></li>
-                    <li><a href="#">Warehouse & Storage</a></li>
-                    <li><a href="#">Packing & Unpacking</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact -->
-            <div class="footer-col">
-                <h4>Get In Touch</h4>
-                <div class="footer-contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div><?= $address1 ?>, <?= $address2 ?>, <?= $addressRegion ?>, <?= $postalCode ?></div>
+        <!-- Middle Section: Socials, Certifications, Payments -->
+        <div class="footer-mid">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6">
+                    <span class="mid-title">Follow Us</span>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+                    </div>
                 </div>
-                <div class="footer-contact-item">
-                    <i class="fas fa-phone-alt"></i>
-                    <div><?= $phone ?></div>
+                <div class="col-lg-4 col-md-6">
+                    <span class="mid-title">Certifications</span>
+                    <div class="cert-logos">
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/iso.png') ?>" alt="ISO Certified"></div>
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/verified.png') ?>" alt="Verified Company"></div>
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/secure.png') ?>" alt="100% Secure"></div>
+                    </div>
                 </div>
-                <div class="footer-contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <div><?= $mail ?></div>
+                <div class="col-lg-5 col-md-12 text-lg-end mt-4 mt-lg-0">
+                    <span class="mid-title">Payment Methods</span>
+                    <div class="payment-logos justify-content-lg-end">
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/visa.png') ?>" alt="Visa"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/mastercard.png') ?>" alt="Mastercard"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/upi.png') ?>" alt="UPI"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/paytm.png') ?>" alt="Paytm"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/gpay.png') ?>" alt="Google Pay"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bottom Bar -->
-    <div class="footer-bottom">
-        <div class="footer-bottom-container">
-            <div class="footer-copy">
-                &copy; <?= date('Y') ?> <strong>eGati Relocation Packers & Movers</strong>. All rights reserved.
-            </div>
-            <div class="footer-bottom-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Sitemap</a>
+    <!-- Copyright Bar -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="copy-content">
+                <div class="copy-text">
+                    &copy; <?= date('Y') ?> eGati Relocation. All Rights Reserved.
+                </div>
+                <div class="copy-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
             </div>
         </div>
     </div>
@@ -73,5 +151,4 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
