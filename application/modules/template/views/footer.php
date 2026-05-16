@@ -6,7 +6,7 @@
                 <!-- Column 1: About & Key Features -->
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <a href="<?= base_url() ?>" class="footer-logo">
-                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION">
+                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION" loading="lazy">
                     </a>
                     <p class="footer-about-text">
                         India's most trusted packers and movers. We handle your precious belongings with zero-damage guarantee.
@@ -114,19 +114,19 @@
                 <div class="col-lg-4 col-md-6">
                     <span class="mid-title">Certifications</span>
                     <div class="cert-logos">
-                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/iso.png') ?>" alt="ISO Certified"></div>
-                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/verified.png') ?>" alt="Verified Company"></div>
-                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/secure.png') ?>" alt="100% Secure"></div>
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/iso.png') ?>" alt="ISO Certified" loading="lazy"></div>
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/verified.png') ?>" alt="Verified Company" loading="lazy"></div>
+                        <div class="cert-item"><img src="<?= base_url('assets/images/footer/secure.png') ?>" alt="100% Secure" loading="lazy"></div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 text-lg-end mt-4 mt-lg-0">
                     <span class="mid-title">Payment Methods</span>
                     <div class="payment-logos justify-content-lg-end">
-                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/visa.png') ?>" alt="Visa"></div>
-                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/mastercard.png') ?>" alt="Mastercard"></div>
-                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/upi.png') ?>" alt="UPI"></div>
-                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/paytm.png') ?>" alt="Paytm"></div>
-                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/gpay.png') ?>" alt="Google Pay"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/visa.png') ?>" alt="Visa" loading="lazy"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/mastercard.png') ?>" alt="Mastercard" loading="lazy"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/upi.png') ?>" alt="UPI" loading="lazy"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/paytm.png') ?>" alt="Paytm" loading="lazy"></div>
+                        <div class="payment-item"><img src="<?= base_url('assets/images/footer/gpay.png') ?>" alt="Google Pay" loading="lazy"></div>
                     </div>
                 </div>
             </div>
@@ -149,6 +149,7 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

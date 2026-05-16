@@ -1,61 +1,112 @@
-<!-- About Us Section -->
-    <section class="about-section" id="about">
-        <div class="about-shape"></div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-image-grid">
-                        <div class="about-img-1">
-                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800" alt="Moving logistics">
+<!-- Elite About Us Section -->
+<section class="eg-about-section py-5">
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <!-- Left Side: Content -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="eg-about-content">
+                    <span class="eg-mini-tag mb-3">
+                        <i class="bi bi-people-fill"></i> ABOUT US
+                    </span>
+                    <h2 class="eg-section-title mb-4">
+                        We Make Every Move
+                        <span class="text-orange">Simple & Stress-Free</span>
+                    </h2>
+                    <p class="eg-about-desc mb-4">
+                        eGati Relocation is one of India's most trusted packers and movers, delivering safe, reliable and affordable home shifting services across the country. With a strong network, experienced team and customer-first approach, we ensure your belongings reach your new home safely and on time.
+                    </p>
+
+                    <div class="eg-about-check-list mb-5">
+                        <div class="check-item">
+                            <i class="bi bi-check-circle-fill"></i> Professional & Verified Team
                         </div>
-                        <div class="about-experience-card">
-                            <div class="about-exp-num">10+</div>
-                            <div class="about-exp-text">
-                                <span class="d-block fw-bold text-dark">Years Of</span>
-                                <span class="d-block text-muted">Excellence</span>
+                        <div class="check-item">
+                            <i class="bi bi-check-circle-fill"></i> Safe Packing & Quality Materials
+                        </div>
+                        <div class="check-item">
+                            <i class="bi bi-check-circle-fill"></i> On-Time Delivery & Real-Time Tracking
+                        </div>
+                    </div>
+
+                    <a href="<?= site_url('about') ?>" class="eg-about-btn">
+                        Know More About Us <i class="bi bi-arrow-right-circle-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Side: Image Grid -->
+            <div class="col-lg-6">
+                <div class="eg-about-image-grid">
+                    <div class="main-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=400" alt="Professional Movers" loading="lazy">
+                        
+                        <!-- Floating Responsibility Card -->
+                        <div class="eg-resp-card">
+                            <div class="resp-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="resp-text">
+                                <strong>Your Belongings, Our Responsibility</strong>
+                                <p>We treat every item with the care it deserves and deliver trust, not just boxes.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content-wrapper">
-                        <span class="about-tag">Since 2014</span>
-                        <h2 class="about-title">Leading the Future of <span>Seamless Relocation</span></h2>
-                        <p class="lead fw-bold text-primary mb-4">We don't just move boxes, we move lives with precision and care.</p>
-                        <p class="text-muted mb-5">At Egati Relocation, we've spent a decade perfecting the art of transition. Our mission is to transform the stress of moving into a seamless, high-end experience through technology-driven logistics and elite customer service.</p>
-                        
-                        <div class="about-features">
-                            <div class="about-f-item">
-                                <div class="about-f-icon"><i class="fas fa-user-shield"></i></div>
-                                <div>
-                                    <h6 class="mb-0 fw-bold">Safe & Insured</h6>
-                                    <small class="text-muted">Total asset protection</small>
-                                </div>
-                            </div>
-                            <div class="about-f-item">
-                                <div class="about-f-icon"><i class="fas fa-clock"></i></div>
-                                <div>
-                                    <h6 class="mb-0 fw-bold">On-Time Always</h6>
-                                    <small class="text-muted">Precision scheduling</small>
-                                </div>
-                            </div>
-                            <div class="about-f-item">
-                                <div class="about-f-icon"><i class="fas fa-box-open"></i></div>
-                                <div>
-                                    <h6 class="mb-0 fw-bold">Smart Packing</h6>
-                                    <small class="text-muted">Eco-grade materials</small>
-                                </div>
-                            </div>
-                            <div class="about-f-item">
-                                <div class="about-f-icon"><i class="fas fa-headset"></i></div>
-                                <div>
-                                    <h6 class="mb-0 fw-bold">24/7 Support</h6>
-                                    <small class="text-muted">Global assistance</small>
-                                </div>
-                            </div>
+                    <div class="side-images">
+                        <div class="side-img top-img">
+                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=400" alt="Team Work" loading="lazy">
+                        </div>
+                        <div class="side-img bottom-img">
+                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=400" alt="Moving Truck" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Bottom Bar: Statistics -->
+        <div class="eg-stats-bar mt-5">
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-6 border-end-elite">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="bi bi-people"></i></div>
+                        <div class="stat-info">
+                            <h3>10,000+</h3>
+                            <strong>Happy Customers</strong>
+                            <p>Trusted by thousands of families across India.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 border-end-elite">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="bi bi-box-seam"></i></div>
+                        <div class="stat-info">
+                            <h3>25,000+</h3>
+                            <strong>Successful Shifts</strong>
+                            <p>Completed home and office shifting with care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 border-end-elite">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="bi bi-geo-alt"></i></div>
+                        <div class="stat-info">
+                            <h3>500+</h3>
+                            <strong>Cities Covered</strong>
+                            <p>Pan India presence for a smooth moving experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="bi bi-patch-check"></i></div>
+                        <div class="stat-info">
+                            <h3>8+ Years</h3>
+                            <strong>Of Experience</strong>
+                            <p>Years of expertise in safe, secure and reliable moving.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

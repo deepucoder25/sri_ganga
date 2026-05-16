@@ -1,4 +1,4 @@
-<section class="eg-elite-hero" aria-label="Main Relocation Hero">
+<section class="eg-elite-hero py-5" aria-label="Main Relocation Hero">
     <!-- Radio Controllers -->
     <input type="radio" name="hero-toggle" id="h-slide1" class="d-none" checked>
     <input type="radio" name="hero-toggle" id="h-slide2" class="d-none">

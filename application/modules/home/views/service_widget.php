@@ -1,5 +1,5 @@
 <!-- Services Section (Modern v3) -->
-<section class="services-section" id="services">
+<section class="services-section py-5" id="services">
     <div class="container">
         <header class="service-header-v3">
             <span class="service-tag-v3">What We Offer</span>
@@ -12,7 +12,7 @@
             <div class="col-xl col-lg-4 col-md-6">
                 <article class="service-card-v3">
                     <div class="service-icon-box-v3">
-                        <img src="<?= base_url('assets/images/services/house_shifting.png') ?>" alt="House Shifting">
+                        <img src="<?= base_url('assets/images/services/house_shifting.png') ?>" alt="House Shifting" loading="lazy">
                     </div>
                     <div class="service-content-v3">
                         <h3>House Shifting</h3>
@@ -27,7 +27,7 @@
             <div class="col-xl col-lg-4 col-md-6">
                 <article class="service-card-v3">
                     <div class="service-icon-box-v3">
-                        <img src="<?= base_url('assets/images/services/office_relocation.png') ?>" alt="Office Relocation">
+                        <img src="<?= base_url('assets/images/services/office_relocation.png') ?>" alt="Office Relocation" loading="lazy">
                     </div>
                     <div class="service-content-v3">
                         <h3>Office Relocation</h3>
@@ -42,7 +42,7 @@
             <div class="col-xl col-lg-4 col-md-6">
                 <article class="service-card-v3">
                     <div class="service-icon-box-v3">
-                        <img src="<?= base_url('assets/images/services/packing_services.png') ?>" alt="Packing Services">
+                        <img src="<?= base_url('assets/images/services/packing_services.png') ?>" alt="Packing Services" loading="lazy">
                     </div>
                     <div class="service-content-v3">
                         <h3>Packing Services</h3>
@@ -57,7 +57,7 @@
             <div class="col-xl col-lg-4 col-md-6">
                 <article class="service-card-v3">
                     <div class="service-icon-box-v3">
-                        <img src="<?= base_url('assets/images/services/transport_services.png') ?>" alt="Transport Services">
+                        <img src="<?= base_url('assets/images/services/transport_services.png') ?>" alt="Transport Services" loading="lazy">
                     </div>
                     <div class="service-content-v3">
                         <h3>Transport Services</h3>
@@ -72,7 +72,7 @@
             <div class="col-xl col-lg-4 col-md-6">
                 <article class="service-card-v3">
                     <div class="service-icon-box-v3">
-                        <img src="<?= base_url('assets/images/services/storage_solutions.png') ?>" alt="Storage Solutions">
+                        <img src="<?= base_url('assets/images/services/storage_solutions.png') ?>" alt="Storage Solutions" loading="lazy">
                     </div>
                     <div class="service-content-v3">
                         <h3>Storage Solutions</h3>
@@ -93,7 +93,7 @@
                     <div class="feature-item-v3">
                         <div class="feature-icon-v3"><i class="fas fa-user-tie"></i></div>
                         <div class="feature-content-v3">
-                            <h5>Trained Professionals</h5>
+                            <h4>Trained Professionals</h4>
                             <p>Experienced & skilled team</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="feature-item-v3">
                         <div class="feature-icon-v3"><i class="fas fa-user-shield"></i></div>
                         <div class="feature-content-v3">
-                            <h5>Safe & Secure</h5>
+                            <h4>Safe & Secure</h4>
                             <p>Your belongings are safe</p>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                     <div class="feature-item-v3">
                         <div class="feature-icon-v3"><i class="fas fa-clock"></i></div>
                         <div class="feature-content-v3">
-                            <h5>On-Time Delivery</h5>
+                            <h4>On-Time Delivery</h4>
                             <p>We value your time</p>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="feature-item-v3">
                         <div class="feature-icon-v3"><i class="fas fa-wallet"></i></div>
                         <div class="feature-content-v3">
-                            <h5>Transparent Pricing</h5>
+                            <h4>Transparent Pricing</h4>
                             <p>No hidden charges</p>
                         </div>
                     </div>
@@ -128,4 +128,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>

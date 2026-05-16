@@ -1,39 +1,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="<?= base_url('assets/css/home.css') ?>">
 
 <div id="home-page">
     <?php $this->load->view('about_widget'); ?>
     <?php $this->load->view('service_widget'); ?>
-    <?php $this->load->view('stats_widget'); ?>
     <?php $this->load->view('process_widget'); ?>
     <?php
-$data['testimonials'] = [
-    [
-        "name" => "Vikram Mehta",
-        "role" => "Corporate Client",
-        "image" => "https://i.pravatar.cc/150?u=11",
-        "review" => "The level of professionalism was astounding. They handled our office relocation with zero downtime and surgical precision."
-    ],
-    [
-        "name" => "Aditi Rao",
-        "role" => "Residential Client",
-        "image" => "https://i.pravatar.cc/150?u=12",
-        "review" => "From Mumbai to Bangalore, not a single scratch. Their smart packing system is truly advanced. World-class experience!"
-    ],
-    [
-        "name" => "Suresh Raina",
-        "role" => "Vehicle Logistics",
-        "image" => "https://i.pravatar.cc/150?u=13",
-        "review" => "Transported my luxury SUV across the country safely. The specialized carrier and real-time tracking were top-notch."
-    ],
-    [
-        "name" => "Rahul Khanna",
-        "role" => "International Client",
-        "image" => "https://i.pravatar.cc/150?u=14",
-        "review" => "Exceptional coordination for our overseas move. The team kept us updated at every single stage of the journey."
-    ]
-];
+ // Testimonial Data
+        $data ['testimonial_list'] = [
+            ['name' => 'Rahul Sharma', 'pos' => 'Delhi to Bangalore', 'text' => 'The team was professional and handled all my delicate items with extreme care. Their packing quality is top-notch.', 'color' => 'bg-blue'],
+            ['name' => 'Priya Patel', 'pos' => 'Office Relocation', 'text' => 'Moving our office was a huge task, but Sri Ganga Relocation made it look easy. Minimal downtime and zero damage.', 'color' => 'bg-green'],
+            ['name' => 'Amit Singh', 'pos' => 'Local Shifting', 'text' => 'Fast, efficient, and very reasonably priced. The staff was polite and finished the job ahead of schedule.', 'color' => 'bg-teal'],
+            ['name' => 'Sonia Verma', 'pos' => 'Vehicle Transport', 'text' => 'I was worried about my car transport, but they delivered it in perfect condition. Great communication.', 'color' => 'bg-blue'],
+            ['name' => 'Vikram Rao', 'pos' => 'Storage Service', 'text' => 'Safe and clean storage facilities. I kept my goods for 3 months and everything was returned in same condition.', 'color' => 'bg-green']
+        ];
 
 $data['faqs'] = [
     [
