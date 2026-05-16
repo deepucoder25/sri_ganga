@@ -6,15 +6,33 @@
 
 
 :root {
+  /* Brand Colors */
   --p-orange: #FBA707;
   --p-blue: #0056B3;
   --p-blue-light: #00d2ff;
-  --nav-bg: rgba(255, 255, 255, 0.9);
-  --nav-blur: 15px;
+  --p-green: #198754;
+  --p-teal: #20c997;
+  
+  /* Neutral Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --dark-bg: #0d0e12;
   --text-main: #1a1a2e;
   --text-alt: #64748b;
+  --bg-light: #f0f2f5;
+  --border-light: rgba(0,0,0,0.05);
+  --border-white: rgba(255,255,255,0.1);
+  
+  /* Layout */
+  --nav-bg: rgba(255, 255, 255, 0.9);
+  --nav-blur: 15px;
+  
+  /* Gradients */
   --grad-main: linear-gradient(90deg, var(--p-orange), var(--p-blue));
   --grad-hover: linear-gradient(135deg, var(--p-blue), var(--p-orange));
+  --grad-dark: linear-gradient(135deg, #0d0e12 0%, #1a1a2e 100%);
+  
+  /* Transitions */
   --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -27,7 +45,6 @@
 
 body {
   font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
-  background-color: #f0f2f5;
+  background-color: var(--bg-light);
   color: var(--text-main);
-  overflow-x: hidden;
 }

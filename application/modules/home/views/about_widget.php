@@ -62,51 +62,5 @@
                 </div>
             </div>
         </div>
-
-        <!-- Bottom Bar: Statistics -->
-        <div class="eg-stats-bar mt-5">
-            <div class="row g-0">
-                <div class="col-lg-3 col-md-6 border-end-elite">
-                    <div class="stat-item">
-                        <div class="stat-icon"><i class="bi bi-people"></i></div>
-                        <div class="stat-info">
-                            <h3>10,000+</h3>
-                            <strong>Happy Customers</strong>
-                            <p>Trusted by thousands of families across India.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 border-end-elite">
-                    <div class="stat-item">
-                        <div class="stat-icon"><i class="bi bi-box-seam"></i></div>
-                        <div class="stat-info">
-                            <h3>25,000+</h3>
-                            <strong>Successful Shifts</strong>
-                            <p>Completed home and office shifting with care.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 border-end-elite">
-                    <div class="stat-item">
-                        <div class="stat-icon"><i class="bi bi-geo-alt"></i></div>
-                        <div class="stat-info">
-                            <h3>500+</h3>
-                            <strong>Cities Covered</strong>
-                            <p>Pan India presence for a smooth moving experience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="stat-item">
-                        <div class="stat-icon"><i class="bi bi-patch-check"></i></div>
-                        <div class="stat-info">
-                            <h3>8+ Years</h3>
-                            <strong>Of Experience</strong>
-                            <p>Years of expertise in safe, secure and reliable moving.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
