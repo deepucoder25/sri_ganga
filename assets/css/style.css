@@ -117,3 +117,159 @@ body {
         font-size: 2.2rem;
     }
 }
+
+/* Bike Page Specific Styles */
+
+.custom-service-banner {
+    background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');
+}
+
+.bike-hero-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-orange { color: var(--p-orange) !important; }
+.tracking-wide { letter-spacing: 2px; }
+
+.dark-blue-text {
+    color: var(--text-main) !important;
+}
+
+.tall-line-height {
+    line-height: 1.8;
+}
+
+.step-dot {
+    width: 20px;
+    height: 20px;
+    left: -35px;
+    top: 0;
+    border: 4px solid var(--white);
+    box-shadow: 0 0 0 2px var(--p-orange);
+}
+
+.pt-top-100 {
+    top: 100px;
+}
+
+.help-box {
+    background: var(--grad-dark);
+}
+
+.bg-shape {
+    top: -20px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background: rgba(251,167,7,0.2);
+    border-radius: 50%;
+    filter: blur(20px);
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+}
+
+.image-overlay {
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(2px);
+    transition: all 0.4s ease;
+}
+.image-wrapper:hover .image-overlay {
+    background-color: rgba(0,0,0,0.6);
+}
+.image-wrapper img {
+    transition: transform 0.8s ease;
+}
+.image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.icon-blob-mini {
+    width: 60px;
+    height: 60px;
+    background: var(--grad-dark);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    animation: morph 6s ease-in-out infinite alternate;
+}
+
+@keyframes morph {
+    0% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+    100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}
+
+.feature-card {
+    transition: all 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--p-orange) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    background-color: var(--white) !important;
+}
+.feature-card:hover .icon-blob-mini {
+    background: var(--grad-main);
+}
+
+.hover-lift {
+    transition: transform 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Accordion Styles */
+.elite-accordion .accordion-button {
+    background-color: var(--white);
+    color: var(--text-main);
+    box-shadow: none !important;
+    padding: 1.25rem 1.5rem;
+}
+.elite-accordion .accordion-button:not(.collapsed) {
+    background-color: var(--bg-light);
+    color: var(--p-orange);
+}
+.elite-accordion .accordion-button::after {
+    filter: invert(34%) sepia(91%) saturate(1630%) hue-rotate(344deg) brightness(101%) contrast(96%);
+}
+.elite-accordion .accordion-body {
+    padding: 1.5rem;
+    line-height: 1.7;
+}
+
+/* CTA Section */
+.bottom-cta-section {
+    background: var(--grad-dark);
+}
+.cta-bg-overlay {
+    background: radial-gradient(circle at 50% 50%, rgba(251,167,7,0.15) 0%, transparent 60%);
+}
+.btn-warning {
+    background-color: var(--p-orange);
+    border-color: var(--p-orange);
+}
+.btn-warning:hover {
+    background-color: var(--p-orange);
+    border-color: var(--p-orange);
+    filter: brightness(0.9);
+}
+
+/* Sidebar Widgets */
+.mini-icon-circle {
+    width: 35px;
+    height: 35px;
+}
+
+.hover-bg-white {
+    transition: all 0.3s ease;
+}
+
+.hover-bg-white:hover {
+    background-color: var(--white);
+    color: var(--p-orange) !important;
+    transform: translateX(5px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}

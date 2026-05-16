@@ -1,75 +1,223 @@
 <main class="main">
     <section class="custom-service-banner" style="background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');">
         <div class="banner-content">
-            <h1 class="banner-title">Car Transportation</h1>
+            <h1 class="banner-title align-self-center">Car Transportation</h1>
             <div class="banner-breadcrumb">
                 <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
-                <span class="separator">/</span> 
-                <a href="<?= site_url('services') ?>">Services</a>
                 <span class="separator">/</span> 
                 <span class="current">Car Transportation</span>
             </div>
         </div>
     </section>
 
+    <!-- Service Details Section -->
     <section class="service-details-section py-5">
         <div class="container">
             <div class="row g-5">
+                <!-- Main Content -->
                 <div class="col-lg-8">
-                    <div class="service-content">
-                        <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1200" alt="Car Transportation" class="img-fluid rounded-4 mb-5 shadow-lg" loading="lazy">
-                        <h2 class="display-6 fw-black mb-4">Safe & Secure <span class="text-orange">Vehicle Carriers</span></h2>
-                        <p class="lead text-muted mb-4">Your car is one of your most valuable assets. We treat it with the care it deserves, using specialized car carriers designed to protect your vehicle from road debris, weather, and scratches.</p>
-                        
-                        <div class="row g-4 mt-2">
-                            <div class="col-md-6">
-                                <div class="feature-box p-4 rounded-4 border bg-white h-100 transition-all hover-translate">
-                                    <div class="icon mb-3 fs-1 text-orange"><i class="bi bi-shield-lock"></i></div>
-                                    <h4 class="fw-bold">Full Transit Insurance</h4>
-                                    <p class="text-muted small">Comprehensive insurance coverage for your vehicle from pickup to final delivery.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-box p-4 rounded-4 border bg-white h-100 transition-all hover-translate">
-                                    <div class="icon mb-3 fs-1 text-orange"><i class="bi bi-pin-map"></i></div>
-                                    <h4 class="fw-bold">Real-time GPS Tracking</h4>
-                                    <p class="text-muted small">Stay updated on your car's location with our advanced real-time tracking system.</p>
+                    <div class="service-content-wrapper p-4 p-lg-5 bg-white rounded-4 shadow-sm border-0 position-relative">
+                        <div class="image-wrapper mb-5 rounded-4 overflow-hidden position-relative shadow-lg">
+                            <img src="<?= base_url('assets/images/car_transport_hero.png') ?>" alt="Car Transportation Services" class="img-fluid w-100 bike-hero-img">
+                            <div class="image-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                <div class="text-center text-white">
+                                    <i class="bi bi-car-front display-1 text-orange mb-3 d-block"></i>
+                                    <h3 class="fw-bold tracking-wide text-uppercase">100% Damage Free</h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="mt-5 p-4 rounded-4 bg-light">
-                            <h3 class="fw-bold mb-3">Why Choose Our Car Carriers?</h3>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="bi bi-check2-circle text-orange me-2"></i> Door-to-door pickup and delivery service.</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle text-orange me-2"></i> Specialized wheel chocks and tie-down systems.</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle text-orange me-2"></i> Single and multi-car carrier options.</li>
-                                <li class="mb-2"><i class="bi bi-check2-circle text-orange me-2"></i> Pre-transport inspection and condition report.</li>
-                            </ul>
+                        <span class="text-uppercase fw-bold text-orange tracking-wide">ELITE CAR RELOCATION</span>
+                        <h2 class="display-5 fw-black text-dark mt-2 mb-4">Safe & Secure <span class="dark-blue-text">Vehicle Carriers</span></h2>
+                        <p class="lead text-muted mb-4 tall-line-height">Your car is one of your most valuable assets. We treat it with the care it deserves, using specialized car carriers designed to protect your vehicle from road debris, weather, and scratches during long-distance or inter-city moves.</p>
+
+                        <!-- Features Grid -->
+                        <div class="row g-4 mt-2 mb-5">
+                            <div class="col-md-6">
+                                <div class="feature-card p-4 rounded-4 bg-light h-100 border transition-all">
+                                    <div class="icon-blob-mini mb-3 d-flex align-items-center justify-content-center text-white fs-3">
+                                        <i class="bi bi-shield-lock"></i>
+                                    </div>
+                                    <h5 class="fw-bold">Full Transit Insurance</h5>
+                                    <p class="small text-muted mb-0">Comprehensive insurance coverage for your vehicle from pickup to final delivery for total peace of mind.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card p-4 rounded-4 bg-light h-100 border transition-all">
+                                    <div class="icon-blob-mini mb-3 d-flex align-items-center justify-content-center text-white fs-3">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </div>
+                                    <h5 class="fw-bold">Real-time GPS Tracking</h5>
+                                    <p class="small text-muted mb-0">Stay updated on your car's exact location throughout the entire journey with our advanced tracking system.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card p-4 rounded-4 bg-light h-100 border transition-all">
+                                    <div class="icon-blob-mini mb-3 d-flex align-items-center justify-content-center text-white fs-3">
+                                        <i class="bi bi-gear-wide-connected"></i>
+                                    </div>
+                                    <h5 class="fw-bold">Secure Wheel Chocks</h5>
+                                    <p class="small text-muted mb-0">We use specialized wheel chocks and soft tie-down systems to prevent any mechanical movement in transit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card p-4 rounded-4 bg-light h-100 border transition-all">
+                                    <div class="icon-blob-mini mb-3 d-flex align-items-center justify-content-center text-white fs-3">
+                                        <i class="bi bi-house-door"></i>
+                                    </div>
+                                    <h5 class="fw-bold">Door-to-Door Service</h5>
+                                    <p class="small text-muted mb-0">Convenient pickup directly from your doorstep and safe, prompt delivery directly to your new address.</p>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Process Timeline -->
+                        <h3 class="fw-bold mb-4 border-bottom pb-3">Our Transport Process</h3>
+                        <div class="process-timeline ms-3 border-start border-warning border-3 position-relative ps-4 py-2">
+                            <div class="timeline-step mb-4 position-relative">
+                                <div class="step-dot position-absolute bg-warning rounded-circle"></div>
+                                <h5 class="fw-bold text-dark">1. Pre-Transport Inspection</h5>
+                                <p class="text-muted small">We conduct a joint inspection of your vehicle, documenting its condition before loading.</p>
+                            </div>
+                            <div class="timeline-step mb-4 position-relative">
+                                <div class="step-dot position-absolute bg-warning rounded-circle"></div>
+                                <h5 class="fw-bold text-dark">2. Secure Loading</h5>
+                                <p class="text-muted small">Your car is carefully driven onto our specialized enclosed or open carrier and securely fastened.</p>
+                            </div>
+                            <div class="timeline-step position-relative">
+                                <div class="step-dot position-absolute bg-warning rounded-circle"></div>
+                                <h5 class="fw-bold text-dark">3. Delivery & Handover</h5>
+                                <p class="text-muted small">Upon arrival, we safely unload the vehicle and perform a final joint inspection with you.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Section -->
+                        <h3 class="fw-bold mb-4 mt-5 border-bottom pb-3">Frequently Asked Questions</h3>
+                        <div class="accordion elite-accordion" id="carFaq">
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingOne">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
+                                        Can I pack personal items in my car during transport?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#carFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                        No, for safety and regulatory reasons, the vehicle must be completely empty of personal belongings.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingTwo">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                        Do I need to empty the gas tank?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#carFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                        Please leave only about 1/4 tank of gas in the vehicle for safe loading and unloading purposes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingThree">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                        How long does car transport typically take?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#carFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                        Transit times vary based on distance, but typical inter-city routes take between 3 to 8 working days.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
+                <!-- Sidebar Content -->
                 <div class="col-lg-4">
-                    <div class="service-sidebar sticky-top" style="top: 120px;">
-                        <div class="quote-sidebar-card p-4 rounded-4 shadow-lg text-white" style="background: linear-gradient(135deg, var(--p-blue) 0%, var(--dark-bg) 100%);">
-                            <h3 class="fw-bold mb-2">Car Shipping Quote</h3>
-                            <p class="small text-white-50 mb-4">Instant pricing for your vehicle relocation.</p>
-                            <?php $this->load->view('contacts/quoteform_mini') ?>
+                    <div class="service-sidebar sticky-top pt-top-100">
+                        
+                        <!-- Contact Help Box -->
+                        <div class="help-box p-4 rounded-4 shadow-sm mb-4 position-relative overflow-hidden">
+                            <div class="bg-shape position-absolute"></div>
+                            <h4 class="text-white fw-bold mb-3 position-relative z-1">Need Immediate Help?</h4>
+                            <p class="text-white-50 small mb-4 position-relative z-1">Our relocation experts are available 24/7 to answer your queries and provide instant quotes.</p>
+                            
+                            <a href="<?=$phonehtml?>" class="d-flex align-items-center text-decoration-none bg-white p-3 rounded-3 mb-3 transition-all hover-lift position-relative z-1">
+                                <div class="icon-circle bg-light text-primary rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="bi bi-telephone-fill"></i>
+                                </div>
+                                <div>
+                                    <span class="d-block small text-muted">Call Us Now</span>
+                                    <span class="d-block fw-bold text-dark"><?=$phone?></span>
+                                </div>
+                            </a>
                         </div>
+
+                        <!-- Why Choose Us Widget -->
+                        <div class="sidebar-widget bg-white p-4 rounded-4 shadow-sm border border-light mb-4">
+                            <h5 class="fw-bold text-dark border-bottom pb-3 mb-3">Why Choose Us?</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="d-flex align-items-center mb-3">
+                                    <div class="bg-light text-orange rounded-circle p-2 me-3 d-flex align-items-center justify-content-center mini-icon-circle">
+                                        <i class="bi bi-shield-check"></i>
+                                    </div>
+                                    <span class="fw-medium text-muted">100% Damage-Free</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <div class="bg-light text-orange rounded-circle p-2 me-3 d-flex align-items-center justify-content-center mini-icon-circle">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </div>
+                                    <span class="fw-medium text-muted">Live GPS Tracking</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <div class="bg-light text-orange rounded-circle p-2 me-3 d-flex align-items-center justify-content-center mini-icon-circle">
+                                        <i class="bi bi-box-seam"></i>
+                                    </div>
+                                    <span class="fw-medium text-muted">Multi-Layer Packing</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="bg-light text-orange rounded-circle p-2 me-3 d-flex align-items-center justify-content-center mini-icon-circle">
+                                        <i class="bi bi-headset"></i>
+                                    </div>
+                                    <span class="fw-medium text-muted">24/7 Customer Support</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Quick Links Widget -->
+                        <div class="sidebar-widget bg-light p-4 rounded-4 shadow-sm border border-white">
+                            <h5 class="fw-bold text-dark border-bottom pb-3 mb-3 border-dark-subtle">Other Services</h5>
+                            <ul class="list-unstyled mb-0 service-quick-links">
+                                <li class="mb-2"><a href="<?= site_url('home-shifting') ?>" class="text-decoration-none text-muted d-block p-2 rounded transition-all hover-bg-white"><i class="bi bi-chevron-right text-orange me-2"></i> Home Shifting</a></li>
+                                <li class="mb-2"><a href="<?= site_url('office-shifting') ?>" class="text-decoration-none text-muted d-block p-2 rounded transition-all hover-bg-white"><i class="bi bi-chevron-right text-orange me-2"></i> Office Shifting</a></li>
+                                <li class="mb-2"><a href="<?= site_url('car-transportation') ?>" class="text-decoration-none text-muted d-block p-2 rounded transition-all hover-bg-white"><i class="bi bi-chevron-right text-orange me-2"></i> Car Transportation</a></li>
+                                <li><a href="<?= site_url('storage-solutions') ?>" class="text-decoration-none text-muted d-block p-2 rounded transition-all hover-bg-white"><i class="bi bi-chevron-right text-orange me-2"></i> Storage Solutions</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Section -->
+    <section class="bottom-cta-section py-5 position-relative overflow-hidden">
+        <div class="cta-bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="container position-relative z-1 py-4">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold text-white mb-4">Ready to relocate your car safely?</h2>
+                    <p class="lead text-white-50 mb-5">Join thousands of satisfied customers who have trusted us with their precious vehicles. Get a custom quote in minutes.</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="<?= site_url('contacts') ?>" class="btn btn-warning btn-lg fw-bold rounded-pill px-5 py-3 hover-lift shadow-lg text-dark">Get Started Now</a>
+                        <a href="tel:+919876543210" class="btn btn-outline-light btn-lg fw-bold rounded-pill px-5 py-3 hover-lift"><i class="bi bi-telephone-fill me-2"></i> Call Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
-
-<style>
-.hover-translate:hover {
-    transform: translateY(-10px);
-    border-color: var(--p-orange) !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-}
-.transition-all {
-    transition: all 0.3s ease;
-}
-</style>
