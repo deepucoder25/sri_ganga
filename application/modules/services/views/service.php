@@ -1,18 +1,14 @@
-<div class="services-list-wrapper">
-    <!-- Hero Section -->
-    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&q=80&w=1600');">
-        <div class="container text-center text-white py-5">
-            <h1 class="display-3 fw-bold mb-3">Our Expert Services</h1>
-            <p class="lead mb-4">Comprehensive relocation and logistics solutions tailored to your needs.</p>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="<?= site_url() ?>" class="text-white">Home</a></li>
-                    <li class="breadcrumb-item active text-warning" aria-current="page">Services</li>
-                </ol>
-            </nav>
+<section class="custom-service-banner" style="background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');">
+    <div class="banner-content">
+        <h1 class="banner-title">Our Expert Services</h1>
+        <div class="banner-breadcrumb">
+            <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
+            <span class="separator">/</span> 
+            <span class="current">Services</span>
         </div>
-    </section>
-
+    </div>
+</section>
+<div class="services-list-wrapper">
     <!-- Services Grid -->
     <section class="services-grid py-5">
         <div class="container">
@@ -49,11 +45,7 @@
 </div>
 
 <style>
-.service-hero {
-    padding: 100px 0;
-    background-size: cover !important;
-    background-position: center !important;
-}
+
 .service-list-card {
     transition: all 0.3s ease;
 }

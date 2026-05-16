@@ -1,15 +1,12 @@
 <div class="gallery-page-wrapper">
-    <!-- Hero Section -->
-    <section class="service-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1600');">
-        <div class="container text-center text-white py-5">
-            <h1 class="display-3 fw-bold mb-3">Our Work Gallery</h1>
-            <p class="lead mb-4">A glimpse into our professional packing and moving processes across India.</p>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="<?= site_url() ?>" class="text-white">Home</a></li>
-                    <li class="breadcrumb-item active text-warning" aria-current="page">Gallery</li>
-                </ol>
-            </nav>
+    <section class="custom-service-banner" style="background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');">
+        <div class="banner-content">
+            <h1 class="banner-title">Gallery</h1>
+            <div class="banner-breadcrumb">
+                <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
+                <span class="separator">/</span> 
+                <span class="current">Gallery</span>
+            </div>
         </div>
     </section>
 

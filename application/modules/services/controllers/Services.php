@@ -6,7 +6,8 @@ class Services extends MX_Controller
         $data['title'] = "Our Services | eGati Relocation";
         $data['description'] = "Explore our wide range of professional packing and moving services across India.";
         $data['module'] = "services";
-        $data['view_file'] = "services_list";
+        $data['view_file'] = "service";
+
         echo Modules::run('template/layout2', $data);
     }
 

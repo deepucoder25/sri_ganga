@@ -5,40 +5,18 @@ $state = ucwords($state);
 ?>
 
 <main class="main">
-    <section class="breadcrumb-hero" data-animate="bottom" data-delay="1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10">
-                    <div class="content-area">
-                        <div class="accent-line"></div>
-                        <h1 class="page-title">Packers and Movers in <?=$state?></h1>
-                        <p class="page-description">
-                            Discover our trusted branches across <?=$state?>, delivering seamless and reliable moving experiences.
-                        </p>
-                    </div>
-                </div>
+    <section class="custom-service-banner" style="background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');">
+        <div class="banner-content">
+            <h1 class="banner-title">Packers and Movers in <?=$state?></h1>
+            <div class="banner-breadcrumb">
+                <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
+                <span class="separator">/</span> 
+                <a href="<?= site_url('branches') ?>">Branches</a>
+                <span class="separator">/</span> 
+                <span class="current">Packers and Movers in <?=$state?></span>
             </div>
         </div>
     </section>
-
-    <nav class="breadcrumb-nav mb-3" data-animate="left" data-delay="1">
-        <div class="container">
-            <ol class="breadcrumb-custom mb-0">
-                <li class="breadcrumb-item">
-                    <a href="<?=site_url()?>">
-                        <i class="fas fa-home"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li class="breadcrumb-item" aria-current="page">
-                    <a href="<?=site_url('branches')?>">Branches</a>
-                </li>
-                <li class="breadcrumb-item" aria-current="page">
-                    Packers and Movers in <?=$state?>
-                </li>
-            </ol>
-        </div>
-    </nav>
     <div class="container feature-content-section py-3">
         <div class="row">
             <?php
