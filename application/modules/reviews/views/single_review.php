@@ -33,7 +33,7 @@ $rev = $reviews->result();
             <div class="row">
                 <div class="col-sm-6 offset-sm-3 mb-4 text-left wow fadeInUp">
 
-                    <button type="button" class="btn float-left btn-xs" style="background:#f4854a;color:white;border:none;width:100%;font-size:100%;font-weight:bold;" data-toggle="modal" data-target="#rvwmdl">Write a Review <i class="fas fa-pen"></i></button>
+                    <button type="button" class="btn float-left btn-xs" style="background:#f4854a;color:white;border:none;width:100%;font-size:100%;font-weight:bold;" data-toggle="modal" data-target="#rvwmdl">Write a Review <i class="bi bi-pencil-fill"></i></button>
                 </div>
             </div>
             <div class="row">
@@ -69,7 +69,7 @@ $rev = $reviews->result();
                                     <span style="float: right;">
                                         <span>
                                             <?php for ($i = 0; $i < $r->stars; $i++) { ?>
-                                                <i class="text-warning fa fa-star"></i>
+                                                <i class="bi bi-star-fill text-warning"></i>
                                             <?php } ?>
                                         </span>
                                         <span style="color:black;" class="float-right star-saver blink mr-2">

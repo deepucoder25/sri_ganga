@@ -18,7 +18,7 @@ $this->load->database();
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <span class="site-title-tagline"><i class="fas fa-truck-container"></i> Our Blog</span>
+                        <span class="site-title-tagline"><i class="bi bi-truck"></i> Our Blog</span>
                         <h2 class="site-title">Our Latest News & <span>Blog</span></h2>
                         <div class="heading-divider"></div>
                     </div>
@@ -81,8 +81,8 @@ $this->load->database();
                         <div class="blog-item-info">
                             <div class="blog-item-meta">
                                 <ul>
-                                    <li><a href="<?= $link ?>"><i class="far fa-user-circle"></i> By Admin</a></li>
-                                    <li><a href="<?= $link ?>"><i class="far fa-eye"></i> <?= $b->views ?> Views</a></li>
+                                    <li><a href="<?= $link ?>"><i class="bi bi-person-circle"></i> By Admin</a></li>
+                                    <li><a href="<?= $link ?>"><i class="bi bi-eye-fill"></i> <?= $b->views ?> Views</a></li>
                                 </ul>
                             </div>
                             <h4 class="blog-title">
@@ -91,7 +91,7 @@ $this->load->database();
                             <p>
                                 <?= implode(' ', array_slice(explode(' ', $b->description), 0, 15)) ?>...
                             </p>
-                            <a class="theme-btn" href="<?= $link ?>">Read More<i class="fas fa-arrow-right"></i></a>
+                            <a class="theme-btn" href="<?= $link ?>">Read More<i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

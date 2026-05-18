@@ -32,13 +32,13 @@
                                 <div class="blog-meta">
                                     <div class="blog-meta-left">
                                         <ul>
-                                            <li><i class="fa-solid fa-calendar-days"></i><?= @$query[0]->timestamp ?></li>
-                                            <li><i class="far fa-eye"></i><?= @$query[0]->views ?></li>
+                                            <li><i class="bi bi-calendar-date"></i><?= @$query[0]->timestamp ?></li>
+                                            <li><i class="bi bi-eye-fill"></i><?= @$query[0]->views ?></li>
                                         </ul>
                                     </div>
                                     <!-- Share Button -->
                                     <div class="blog-meta-right">
-                                        <a href="javascript:void(0);" class="share-link" data-bs-toggle="modal" data-bs-target="#shareModal"><i class="far fa-share-alt"></i> Share</a>
+                                        <a href="javascript:void(0);" class="share-link" data-bs-toggle="modal" data-bs-target="#shareModal"><i class="bi bi-share-fill"></i> Share</a>
                                     </div>
 
                                     <!-- Bootstrap Modal Structure -->
@@ -54,13 +54,13 @@
                                                 <div class="modal-body row">
                                                     <div class="social-buttons">
                                                         <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL" target="_blank" class="social-btn facebook btn btn-primary w-100 mb-2">
-                                                            <i class="fab fa-facebook-f"></i> Facebook
+                                                            <i class="bi bi-facebook"></i> Facebook
                                                         </a>
                                                         <a href="https://twitter.com/intent/tweet?url=YOUR_URL" target="_blank" class="social-btn twitter btn btn-info w-100 mb-2">
-                                                            <i class="fab fa-twitter"></i> Twitter
+                                                            <i class="bi bi-twitter-x"></i> Twitter
                                                         </a>
                                                         <a href="https://api.whatsapp.com/send?text=YOUR_URL" target="_blank" class="social-btn whatsapp btn btn-success w-100 mb-2">
-                                                            <i class="fab fa-whatsapp"></i> WhatsApp
+                                                            <i class="bi bi-whatsapp"></i> WhatsApp
                                                         </a>
                                                     </div>
                                                 </div>
@@ -118,7 +118,7 @@
                                         </div>
                                         <div class="recent-post-info">
                                             <h6><a href="<?php echo $post['b_id']; ?>"><?php echo $post['title']; ?></a></h6>
-                                            <span><i class="far fa-clock"></i> <?php echo date('M d, Y', strtotime($post['timestamp'])); ?></span>
+                                            <span><i class="bi bi-clock"></i> <?php echo date('M d, Y', strtotime($post['timestamp'])); ?></span>
                                         </div>
                                     </div>
                                 <?php endforeach; ?>
@@ -130,10 +130,10 @@
                         <div class="widget social">
                             <h5 class="widget-title">Follow Us</h5>
                             <div class="social-link">
-                                <a href="<?=$facebookhtml ?>" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="<?=$twitterhtml ?>" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                                <a href="<?=$instagramhtml ?>" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="<?= $youtubehtml ?>" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="<?=$facebookhtml ?>" target="_blank"><i class="bi bi-facebook"></i></a>
+                                <a href="<?=$twitterhtml ?>" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                <a href="<?=$instagramhtml ?>" target="_blank"><i class="bi bi-instagram"></i></a>
+                                <a href="<?= $youtubehtml ?>" target="_blank"><i class="bi bi-youtube"></i></a>
                             </div>
                         </div>
                     </aside>

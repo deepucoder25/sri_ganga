@@ -440,8 +440,8 @@ foreach ($cities as $ct) {
                         <i class="bi bi-headset display-4 mb-3 d-block anim-attract-float"></i>
                         <h4 class="fw-bold mb-2">Need Immediate Help?</h4>
                         <p class="small opacity-75 mb-4">Our <?= $city ?> experts are available 24/7</p>
-                        <a href="tel:+919876543210" class="btn btn-primary text-white rounded-pill fw-bold w-100 py-3 shadow-sm d-flex align-items-center justify-content-center gap-2 anim-attract-pulse">
-                            <i class="bi bi-telephone-fill"></i> +91-9876543210
+                        <a href="<?=$phonehtml?>" class="btn btn-primary text-white rounded-pill fw-bold w-100 py-3 shadow-sm d-flex align-items-center justify-content-center gap-2 anim-attract-pulse">
+                            <i class="bi bi-telephone-fill"></i> <?=$phone?>
                         </a>
                     </div>
 

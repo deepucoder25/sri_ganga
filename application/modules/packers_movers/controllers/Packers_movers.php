@@ -4,16 +4,16 @@ class Packers_movers extends MX_Controller
 
     function index()
     {
-        $data['title'] = "All India Service " . $this->comp['company3'];
-        $data['description'] = $this->comp['company3'] . " is best packers and movers service provider.";
+        $data['title'] = "Top Packers and Movers in India | eGati Relocation";
+        $data['description'] = "eGati Relocation is India's leading packers and movers company, offering reliable home shifting, corporate office relocation, car transport, and warehousing solutions.";
         $data['module'] = "packers_movers";
         $data['view_file'] = "states";
         echo Modules::run('template/layout2', $data);
     }
     function state()
     {
-        $data['title'] = "All India Service " . $this->comp['company3'];
-        $data['description'] = $this->comp['company3'] . " is best packers and movers service provider.";
+        $data['title'] = "Top Packers and Movers in India | eGati Relocation";
+        $data['description'] = "eGati Relocation is India's leading packers and movers company, offering reliable home shifting, corporate office relocation, car transport, and warehousing solutions.";
         $data['module'] = "packers_movers";
         $data['view_file'] = "states";
         echo Modules::run('template/layout2', $data);
@@ -26,9 +26,9 @@ class Packers_movers extends MX_Controller
         $state = str_replace("_", " ", ucwords($state));
         $data = array(
             "state" => $state,
-            "title" => $this->comp['company3'] . " in $state",
-            "description" => $this->comp['company3'] . " in $state",
-            "keywords" => "$state " . $this->comp['company3'] . " in $state",
+            "title" => "Professional Packers and Movers in $state | eGati Relocation",
+            "description" => "Find the best and most reliable packers and movers in $state. eGati Relocation offers professional home shifting, office relocation, and car transport services.",
+            "keywords" => "$state packers and movers, movers near me $state, home shifting $state",
             "module" => "packers_movers",
             "view_file" => "city_list",
         );
@@ -61,6 +61,12 @@ class Packers_movers extends MX_Controller
         $city = str_replace("_", " ", $city);
         $city = urldecode(ucwords(str_replace("-", " ", $city)));
         $seo = $this->get_title($city, $state);
+        if (empty($seo['title'])) {
+            $seo['title'] = "Best Packers and Movers in $city | Safe Shifting - eGati";
+        }
+        if (empty($seo['desc'])) {
+            $seo['desc'] = "Looking for professional packers and movers in $city? eGati Relocation offers safe, secure, and affordable home shifting, office shifting, and vehicle transport services in $city. Get a free quote today!";
+        }
         $statelink=strtolower($state);
         $data = array(
             "city" => $city,

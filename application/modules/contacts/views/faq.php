@@ -5,7 +5,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <div class="form-icon">
-                        <i class="far fa-user-tie"></i>
+                        <i class="bi bi-person"></i>
                         <input type="text" class="form-control" name="name" placeholder="Your Name" >
                     </div>
                 </div>
@@ -13,7 +13,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <div class="form-icon">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="bi bi-telephone"></i>
                         <input type="tel" class="form-control" name="phone" placeholder="Mobile Number">
                     </div>
                 </div>
@@ -21,14 +21,14 @@
         </div>
         <div class="form-group">
             <div class="form-icon">
-                <i class="far fa-comment-lines"></i>
+                <i class="bi bi-chat-left-text"></i>
                 <textarea name="question" cols="30" rows="5" class="form-control"
                     placeholder="Write Your questions" ></textarea>
             </div>
         </div>
             <div id="resultfaq"></div>
-        <button id="submitbfaq" type="submit" class="theme-btn" style="background-color:#FBA707;">Submit <i class="far fa-paper-plane"></i></button>
-        <button onclick="$('#resultfaq').html('');"  type="reset" class="theme-btn" style="background-color:white;color:#A0A0A0;">Clear <i class="far fa-trash-alt"></i></button>
+        <button id="submitbfaq" type="submit" class="theme-btn" style="background-color:#FBA707;">Submit <i class="bi bi-send-fill"></i></button>
+        <button onclick="$('#resultfaq').html('');"  type="reset" class="theme-btn" style="background-color:white;color:#A0A0A0;">Clear <i class="bi bi-trash3-fill"></i></button>
     </form>
 </div>
 <script type="text/javascript">

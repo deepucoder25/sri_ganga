@@ -45,8 +45,8 @@ class Blog extends MX_Controller {
         $data['query'] = $this->db->get('blog', $config['per_page'], $this->uri->segment(3));
         $data['total'] = $config['total_rows'];
 
-        $data['title'] = "Official Blog of ".$this->comp['company3']." India";
-        $data['description'] = "Latest blog of ".$this->comp['company3'];
+        $data['title'] = "Expert Packing & Moving Tips, Shifting Guides | eGati Blog";
+        $data['description'] = "Get the latest tips, shifting guides, and expert relocation advice on packing, home relocation, vehicle transportation, and hassle-free office shifting on the eGati Blog.";
         $data['module'] = "blog";
         $data['view_file'] = "blog"; 
 

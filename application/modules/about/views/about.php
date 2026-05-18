@@ -3,7 +3,7 @@
         <div class="banner-content">
             <h1 class="banner-title">About Us</h1>
             <div class="banner-breadcrumb">
-                <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
+                <a href="<?= site_url() ?>"><i class="bi bi-house-door-fill"></i> Home</a> 
                 <span class="separator">/</span> 
                 <span class="current">About Us</span>
             </div>

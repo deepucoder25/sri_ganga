@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-sm-6 offset-sm-3 mb-4 text-left fade-in">
                         <button type="button" class="btn write-review-btn" data-bs-toggle="modal" data-bs-target="#rvwmdl">
-                            Write a Review <i class="fas fa-pen"></i>
+                            Write a Review <i class="bi bi-pencil-fill"></i>
                         </button>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                                         </p>
                                         <div class="review-rating">
                                             <?php for ($i = 0; $i < $r->stars; $i++) { ?>
-                                                <i class="text-warning fa fa-star"></i>
+                                                <i class="bi bi-star-fill text-warning"></i>
                                             <?php } ?>
                                             <span class="rating-value" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                                                 <span itemprop="ratingValue"><?= $r->stars ?></span> stars

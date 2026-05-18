@@ -3,7 +3,7 @@
         <div class="banner-content">
             <h1 class="banner-title align-self-center">Packing & Unpacking</h1>
             <div class="banner-breadcrumb">
-                <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
+                <a href="<?= site_url() ?>"><i class="bi bi-house-door-fill"></i> Home</a> 
                 <span class="separator">/</span>
                 <span class="current">Packing & Unpacking</span>
             </div>
@@ -214,7 +214,7 @@
                     <p class="lead text-white-50 mb-5">Save time and ensure the safety of your belongings with our elite packing services. Get a custom quote in minutes.</p>
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
                         <a href="<?= site_url('contacts') ?>" class="btn btn-warning btn-lg fw-bold rounded-pill px-5 py-3 hover-lift shadow-lg text-dark">Get Started Now</a>
-                        <a href="tel:+919876543210" class="btn btn-outline-light btn-lg fw-bold rounded-pill px-5 py-3 hover-lift"><i class="bi bi-telephone-fill me-2"></i> Call Us</a>
+                        <a href="<?=$phonehtml?>" class="btn btn-outline-light btn-lg fw-bold rounded-pill px-5 py-3 hover-lift"><i class="bi bi-telephone-fill me-2"></i> Call Us</a>
                     </div>
                 </div>
             </div>

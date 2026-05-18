@@ -74,14 +74,14 @@
                 <!-- Column 5: Contact Us -->
                 <div class="col-lg-3 col-md-6">
                     <h5 class="footer-col-title">Contact Us</h5>
-                    <a href="tel:<?= $phone ?>" class="contact-item-box text-decoration-none">
+                    <a href="<?= $phonehtml ?>" class="contact-item-box text-decoration-none">
                         <div class="contact-icon"><i class="bi bi-telephone-outbound-fill"></i></div>
                         <div class="contact-text">
                             <strong><?= $phone ?></strong>
                             <span>Call Us Now</span>
                         </div>
                     </a>
-                    <a href="mailto:<?= $mail ?>" class="contact-item-box text-decoration-none">
+                    <a href="<?= $mailhtml ?>" class="contact-item-box text-decoration-none">
                         <div class="contact-icon"><i class="bi bi-envelope-at-fill"></i></div>
                         <div class="contact-text">
                             <strong><?= $mail ?></strong>

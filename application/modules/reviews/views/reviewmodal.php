@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-2 text-end">
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="color: red; font-size: 30px; margin-right: 15px;">
-                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                            <span aria-hidden="true"><i class="bi bi-x-lg"></i></span>
                         </button>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <div class="form-icon">
-                                <i class="far fa-user"></i>
+                                <i class="bi bi-person"></i>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <div class="form-icon">
-                                <i class="far fa-envelope"></i>
+                                <i class="bi bi-envelope"></i>
                                 <input type="email" class="form-control" name="email" placeholder="Email Address">
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <div class="form-icon">
-                                <i class="far fa-comment"></i>
+                                <i class="bi bi-chat-left-text"></i>
                                 <input type="text" class="form-control" name="title" placeholder="Review Title">
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <div class="form-icon">
-                                <i class="far fa-comments"></i>
+                                <i class="bi bi-chat-left-quote"></i>
                                 <textarea class="form-control" name="desc" rows="3" placeholder="Write Your Experience"></textarea>
                             </div>
                         </div>
@@ -68,8 +68,8 @@
                     </div>
                     <div class="col-12 text-center">
                         <div id="result"></div>
-                        <button id="submitbtn" type="submit" class="theme-btn" style="background-color: #FBA707;">Submit<i class="far fa-paper-plane"></i></button>
-                        <button onclick="$('#result').html('');" type="reset"  class="theme-btn" style="background-color: white; color: #A0A0A0;">Clear <i class="far fa-trash-alt"></i></button>
+                        <button id="submitbtn" type="submit" class="theme-btn" style="background-color: #FBA707;">Submit <i class="bi bi-send-fill"></i></button>
+                        <button onclick="$('#result').html('');" type="reset"  class="theme-btn" style="background-color: white; color: #A0A0A0;">Clear <i class="bi bi-trash3-fill"></i></button>
                     </div>
                 </div>
             </form>

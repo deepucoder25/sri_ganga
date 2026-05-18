@@ -17,7 +17,7 @@
           <ol class="breadcrumb-custom mb-0">
               <li class="breadcrumb-item">
                   <a href="<?=site_url()?>">
-                      <i class="fas fa-home"></i>
+                      <i class="bi bi-house-door-fill"></i>
                       <span>Home</span>
                   </a>
               </li>
@@ -40,7 +40,7 @@
         <a href="<?= site_url() ?>" class="bd-btn-link btn_primary">
           <span class="bd-button-content-wrapper">
             <span class="bd-button-icon">
-              <i class="fa-light fa-arrow-right-long"></i>
+              <i class="bi bi-arrow-right"></i>
             </span>
             <span class="pd-animation-flip">
               <span class="bd-btn-anim-wrapp">

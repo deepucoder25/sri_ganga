@@ -7,8 +7,8 @@ class Contacts extends MX_Controller
     }
     function index()
     {
-        $data['title'] = "";
-        $data['description'] = "";
+        $data['title'] = "Contact Us | Get Free Shifting Quote | eGati Relocation";
+        $data['description'] = "Get in touch with eGati Relocation. Contact our customer support team for inquiries or get an instant, free shifting quote for your home or office relocation.";
         $data['module'] = "contacts";
         $data['view_file'] = "contacts";
         echo Modules::run('template/layout2', $data);

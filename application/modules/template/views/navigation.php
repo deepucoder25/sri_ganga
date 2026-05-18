@@ -13,7 +13,7 @@
                 <span class="badge-verified"><i class="bi bi-patch-check-fill"></i> VERIFIED SERVICE</span>
                 <!-- Mobile only contact -->
                 <div class="d-lg-none">
-                    <a href="tel:<?= $phone ?>" class="text-white text-decoration-none small">
+                    <a href="<?= $phonehtml ?>" class="text-white text-decoration-none small">
                         <i class="bi bi-telephone-fill"></i> <?= $phone ?>
                     </a>
                 </div>

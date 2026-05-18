@@ -9,7 +9,7 @@
 					<h1>Search Queries</h1>
 					<ul>
 						<li><a href="<?=site_url()?>">Home</a></li>
-						<li><i class="fa fa-angle-right"></i></li>
+						<li><i class="bi bi-chevron-right"></i></li>
 						<li>Search</li>
 					</ul>
 				</div>

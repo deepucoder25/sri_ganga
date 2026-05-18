@@ -53,9 +53,9 @@ class Reviews extends MX_Controller {
         $data['reviews'] =$this->db->where('status',1)->get('reviews',$config['per_page'],$this->uri->segment(2));
         $data['total']=$config['total_rows'];
 
-        $data['title']=$this->comp['company3']." Customer Feedback";
-        $data['description']=$this->comp['company3']." Customer Feedback";
-        $data['keywords']=$this->comp['company3']." Customer Feedback";
+        $data['title'] = "Customer Reviews & Testimonials | eGati Packers and Movers";
+        $data['description'] = "Read genuine reviews, ratings, and testimonials from our clients about their house shifting and corporate relocation experiences with eGati Relocation.";
+        $data['keywords'] = "eGati Packers and Movers reviews, shifting testimonials, moving company rating, household packing reviews";
         $data['module']="reviews";
         $data['view_file']="reviews";
         echo Modules::run('template/layout2',$data);
