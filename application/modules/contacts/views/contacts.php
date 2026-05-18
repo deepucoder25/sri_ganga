@@ -1,7 +1,7 @@
 <div class="contact-page-wrapper">
     <section class="custom-service-banner" style="background-image: url('<?= base_url("assets/images/service_banner_bg.png") ?>');">
         <div class="banner-content">
-            <h1 class="banner-title">Contact Us</h1>
+            <h1 class="banner-title align-self-center">Contact Us</h1>
             <div class="banner-breadcrumb">
                 <a href="<?= site_url() ?>"><i class="fas fa-home"></i> Home</a> 
                 <span class="separator">/</span> 
@@ -12,66 +12,74 @@
 
     <section class="contact-content py-5">
         <div class="container">
-            <div class="row g-5 align-items-center">
-                <!-- Contact Info -->
-                <div class="col-lg-6">
-                    <div class="contact-info-panel">
-                        <span class="text-primary fw-bold text-uppercase tracking-wider d-block mb-3">GET IN TOUCH</span>
-                        <h2 class="display-6 fw-bold mb-4">Reach Out to Our <span class="text-warning">Support Team</span></h2>
-                        <p class="text-muted mb-5">Let's plan your perfect move together. Contact us for a free quote and discover why thousands of customers trust us for their relocation needs.</p>
-                        
-                        <div class="contact-boxes">
-                            <div class="d-flex align-items-center mb-4 p-3 rounded-4 border shadow-sm">
-                                <div class="icon-circle bg-light text-primary p-3 rounded-circle me-4 fs-4"><i class="bi bi-envelope-at-fill"></i></div>
-                                <div>
-                                    <small class="text-muted d-block">Email Address</small>
-                                    <a href="mailto:<?= $mail ?>" class="text-decoration-none text-dark fw-bold"><?= $mail ?></a>
+            <div class="elite-contact-wrapper">
+                <div class="row g-0">
+                    <!-- Left: Contact Info -->
+                    <div class="col-lg-5 elite-contact-info">
+                        <div class="position-relative z-1">
+                            <span class="text-uppercase fw-bold tracking-wide d-block mb-2 small text-white-50">GET IN TOUCH</span>
+                            <h3 class="fw-black mb-4 text-white">Reach Out to Our Support Team</h3>
+                            <p class="text-white-50 mb-5">Let's plan your perfect move together. Contact us for a free quote and discover why thousands of customers trust us for their relocation needs.</p>
+                            
+                            <div class="elite-contact-item">
+                                <div class="elite-contact-icon">
+                                    <i class="bi bi-envelope-at-fill"></i>
+                                </div>
+                                <div class="elite-contact-text">
+                                    <span>Email Address</span>
+                                    <a href="<?= $mailhtml ?>"><?= $mail ?></a>
                                 </div>
                             </div>
                             
-                            <div class="d-flex align-items-center mb-4 p-3 rounded-4 border shadow-sm">
-                                <div class="icon-circle bg-light text-warning p-3 rounded-circle me-4 fs-4"><i class="bi bi-telephone-outbound-fill"></i></div>
-                                <div>
-                                    <small class="text-muted d-block">Phone Number</small>
-                                    <a href="tel:<?= $phone ?>" class="text-decoration-none text-dark fw-bold"><?= $phone ?></a>
+                            <div class="elite-contact-item">
+                                <div class="elite-contact-icon">
+                                    <i class="bi bi-telephone-outbound-fill"></i>
+                                </div>
+                                <div class="elite-contact-text">
+                                    <span>Phone Number</span>
+                                    <a href="<?= $phonehtml ?>"><?= $phone ?></a>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center p-3 rounded-4 border shadow-sm">
-                                <div class="icon-circle bg-light text-success p-3 rounded-circle me-4 fs-4"><i class="bi bi-geo-alt-fill"></i></div>
-                                <div>
-                                    <small class="text-muted d-block">Our Address</small>
-                                    <address class="mb-0 fw-bold"><?= $address1 ?>, <?= $addressRegion ?></address>
+                            <div class="elite-contact-item mb-0">
+                                <div class="elite-contact-icon">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <div class="elite-contact-text">
+                                    <span>Our Address</span>
+                                    <address class="mb-0"><?= $address1 ?>, <?= $addressRegion ?></address>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Contact Form -->
-                <div class="col-lg-6">
-                    <div class="contact-form-card p-5 rounded-4 shadow-lg bg-white border">
-                        <h3 class="fw-bold mb-4">Send a Message</h3>
+                    <!-- Right: Contact Form -->
+                    <div class="col-lg-7 elite-contact-form">
+                        <h4 class="fw-black mb-4 text-dark">Send a Message</h4>
                         <form method="post" id="getintouchform" onsubmit="return false;">
-                            <div class="mb-3">
-                                <label class="form-label fw-bold small">Full Name *</label>
-                                <input type="text" name="name" class="form-control rounded-pill px-4 py-2" placeholder="Your Name">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name *</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Your Message *</label>
+                                    <textarea name="message" class="form-control" rows="4" placeholder="How can we help?"></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="button" id="submitcontactbtn" class="elite-submit-btn">
+                                        SEND MESSAGE <i class="bi bi-send-fill ms-2"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold small">Email Address *</label>
-                                <input type="email" name="email" class="form-control rounded-pill px-4 py-2" placeholder="Email Address">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label fw-bold small">Phone Number *</label>
-                                <input type="tel" name="phone" class="form-control rounded-pill px-4 py-2" placeholder="Phone Number">
-                            </div>
-                            <div class="mb-4">
-                                <label class="form-label fw-bold small">Your Message *</label>
-                                <textarea name="message" class="form-control rounded-4 px-4 py-3" rows="4" placeholder="How can we help?"></textarea>
-                            </div>
-                            <button type="button" id="submitcontactbtn" class="btn text-white w-100 rounded-pill py-3 fw-bold" style="background: linear-gradient(90deg, var(--p-orange) 0%, var(--p-blue) 100%);">
-                                SEND MESSAGE <i class="bi bi-send-fill ms-2"></i>
-                            </button>
                             <div id="resulttouch" class="mt-3"></div>
                         </form>
                     </div>
@@ -81,10 +89,10 @@
     </section>
 
     <!-- Map Section -->
-    <section class="map-section py-5">
+    <section class="map-section py-0 mb-5">
         <div class="container">
-            <div class="rounded-4 overflow-hidden shadow-lg border" style="height: 450px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867495.57970536!2d74.1275402681546!3d18.8047856661642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1760679431085!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="rounded-4 overflow-hidden shadow-lg border-0 position-relative" style="height: 500px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867495.57970536!2d74.1275402681546!3d18.8047856661642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1760679431085!5m2!1sen!2sin" width="100%" height="100%" style="border:0; position: relative; z-index: 1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
@@ -103,7 +111,7 @@
                 success: function (data) {
                     $('#resulttouch').empty();
                     if (data == '1') {
-                        data = "<div class='alert alert-success'>Your message has been sent successfully. We'll contact you soon.</div>";
+                        data = "<div class='alert alert-success rounded-pill'>Your message has been sent successfully. We'll contact you soon.</div>";
                         $("#getintouchform").trigger('reset');
                     }
                     $('#resulttouch').html(data);
@@ -112,21 +120,3 @@
         });
     });
 </script>
-
-<style>
-.service-hero {
-    padding: 100px 0;
-    background-size: cover !important;
-    background-position: center !important;
-}
-.contact-form-card {
-    margin-top: -50px;
-    z-index: 5;
-    position: relative;
-}
-@media (max-width: 991px) {
-    .contact-form-card {
-        margin-top: 20px;
-    }
-}
-</style>

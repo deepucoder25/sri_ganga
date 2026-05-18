@@ -25,7 +25,7 @@
         <div class="container d-flex justify-content-between align-items-center">
             <!-- Logo -->
             <a href="<?= base_url() ?>" class="eg-logo">
-                <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION">
+                <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="eGati RELOCATION">
             </a>
 
             <!-- Desktop Menu -->

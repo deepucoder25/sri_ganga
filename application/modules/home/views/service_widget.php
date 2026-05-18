@@ -10,77 +10,77 @@
         <div class="row g-3 service-grid-v3">
             <!-- Service 1 -->
             <div class="col-xl col-lg-4 col-md-6">
-                <article class="service-card-v3">
+                <a href="<?= site_url('home-shifting') ?>" class="service-card-v3 text-decoration-none">
                     <div class="service-icon-box-v3">
                         <img src="<?= base_url('assets/images/services/house_shifting.png') ?>" alt="House Shifting" loading="lazy">
                     </div>
                     <div class="service-content-v3">
-                        <h3>House Shifting</h3>
-                        <p>Safe and efficient shifting for 1BHK, 2BHK, 3BHK or larger homes.</p>
-                        <a href="#" class="learn-more-v3">Learn More <i class="fas fa-chevron-right mobile-only"></i><i class="fas fa-arrow-right desktop-only"></i></a>
+                        <h3 class="text-dark">House Shifting</h3>
+                        <p class="text-dark">Safe and efficient shifting for 1BHK, 2BHK, 3BHK or larger homes.</p>
+                        <span class="learn-more-v3">Learn More <i class="bi bi-chevron-right mobile-only"></i><i class="bi bi-arrow-right desktop-only"></i></span>
                     </div>
-                    <i class="fas fa-chevron-right mobile-chevron"></i>
-                </article>
+                    <i class="bi bi-chevron-right mobile-chevron"></i>
+                </a>
             </div>
 
             <!-- Service 2 -->
             <div class="col-xl col-lg-4 col-md-6">
-                <article class="service-card-v3">
+                <a href="<?= site_url('office-shifting') ?>" class="service-card-v3 text-decoration-none">
                     <div class="service-icon-box-v3">
                         <img src="<?= base_url('assets/images/services/office_relocation.png') ?>" alt="Office Relocation" loading="lazy">
                     </div>
                     <div class="service-content-v3">
-                        <h3>Office Relocation</h3>
-                        <p>Minimize downtime with our organized and professional office moving services.</p>
-                        <a href="#" class="learn-more-v3">Learn More <i class="fas fa-chevron-right mobile-only"></i><i class="fas fa-arrow-right desktop-only"></i></a>
+                        <h3 class="text-dark">Office Relocation</h3>
+                        <p class="text-dark">Minimize downtime with our organized and professional office moving services.</p>
+                        <span class="learn-more-v3">Learn More <i class="bi bi-chevron-right mobile-only"></i><i class="bi bi-arrow-right desktop-only"></i></span>
                     </div>
-                    <i class="fas fa-chevron-right mobile-chevron"></i>
-                </article>
+                    <i class="bi bi-chevron-right mobile-chevron"></i>
+                </a>
             </div>
 
             <!-- Service 3 -->
             <div class="col-xl col-lg-4 col-md-6">
-                <article class="service-card-v3">
+                <a href="<?= site_url('packing-unpacking') ?>" class="service-card-v3 text-decoration-none">
                     <div class="service-icon-box-v3">
                         <img src="<?= base_url('assets/images/services/packing_services.png') ?>" alt="Packing Services" loading="lazy">
                     </div>
                     <div class="service-content-v3">
-                        <h3>Packing Services</h3>
-                        <p>High-quality packing materials and expert handling for complete safety.</p>
-                        <a href="#" class="learn-more-v3">Learn More <i class="fas fa-chevron-right mobile-only"></i><i class="fas fa-arrow-right desktop-only"></i></a>
+                        <h3 class="text-dark">Packing Services</h3>
+                        <p class="text-dark">High-quality packing materials and expert handling for complete safety.</p>
+                        <span class="learn-more-v3">Learn More <i class="bi bi-chevron-right mobile-only"></i><i class="bi bi-arrow-right desktop-only"></i></span>
                     </div>
-                    <i class="fas fa-chevron-right mobile-chevron"></i>
-                </article>
+                    <i class="bi bi-chevron-right mobile-chevron"></i>
+                </a>
             </div>
 
             <!-- Service 4 -->
             <div class="col-xl col-lg-4 col-md-6">
-                <article class="service-card-v3">
+                <a href="<?= site_url('car-transportation') ?>" class="service-card-v3 text-decoration-none">
                     <div class="service-icon-box-v3">
                         <img src="<?= base_url('assets/images/services/transport_services.png') ?>" alt="Transport Services" loading="lazy">
                     </div>
                     <div class="service-content-v3">
-                        <h3>Transport Services</h3>
-                        <p>Well-maintained fleet for local, domestic and long-distance transport.</p>
-                        <a href="#" class="learn-more-v3">Learn More <i class="fas fa-chevron-right mobile-only"></i><i class="fas fa-arrow-right desktop-only"></i></a>
+                        <h3 class="text-dark">Transport Services</h3>
+                        <p class="text-dark">Well-maintained fleet for local, domestic and long-distance transport.</p>
+                        <span class="learn-more-v3">Learn More <i class="bi bi-chevron-right mobile-only"></i><i class="bi bi-arrow-right desktop-only"></i></span>
                     </div>
-                    <i class="fas fa-chevron-right mobile-chevron"></i>
-                </article>
+                    <i class="bi bi-chevron-right mobile-chevron"></i>
+                </a>
             </div>
 
             <!-- Service 5 -->
             <div class="col-xl col-lg-4 col-md-6">
-                <article class="service-card-v3">
+                <a href="<?= site_url('storage-solutions') ?>" class="service-card-v3 text-decoration-none">
                     <div class="service-icon-box-v3">
                         <img src="<?= base_url('assets/images/services/storage_solutions.png') ?>" alt="Storage Solutions" loading="lazy">
                     </div>
                     <div class="service-content-v3">
-                        <h3>Storage Solutions</h3>
-                        <p>Secure short-term and long-term storage solutions for your belongings.</p>
-                        <a href="#" class="learn-more-v3">Learn More <i class="fas fa-chevron-right mobile-only"></i><i class="fas fa-arrow-right desktop-only"></i></a>
+                        <h3 class="text-dark">Storage Solutions</h3>
+                        <p class="text-dark">Secure short-term and long-term storage solutions for your belongings.</p>
+                        <span class="learn-more-v3">Learn More <i class="bi bi-chevron-right mobile-only"></i><i class="bi bi-arrow-right desktop-only"></i></span>
                     </div>
-                    <i class="fas fa-chevron-right mobile-chevron"></i>
-                </article>
+                    <i class="bi bi-chevron-right mobile-chevron"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
             <div class="row g-3">
                 <div class="col-lg-3 col-6">
                     <div class="feature-item-v3">
-                        <div class="feature-icon-v3"><i class="fas fa-user-tie"></i></div>
+                        <div class="feature-icon-v3"><i class="bi bi-person-fill-check"></i></div>
                         <div class="feature-content-v3">
                             <h4>Trained Professionals</h4>
                             <p>Experienced & skilled team</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="feature-item-v3">
-                        <div class="feature-icon-v3"><i class="fas fa-user-shield"></i></div>
+                        <div class="feature-icon-v3"><i class="bi bi-shield-lock-fill"></i></div>
                         <div class="feature-content-v3">
                             <h4>Safe & Secure</h4>
                             <p>Your belongings are safe</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="feature-item-v3">
-                        <div class="feature-icon-v3"><i class="fas fa-clock"></i></div>
+                        <div class="feature-icon-v3"><i class="bi bi-clock-fill"></i></div>
                         <div class="feature-content-v3">
                             <h4>On-Time Delivery</h4>
                             <p>We value your time</p>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="feature-item-v3">
-                        <div class="feature-icon-v3"><i class="fas fa-wallet"></i></div>
+                        <div class="feature-icon-v3"><i class="bi bi-wallet-fill"></i></div>
                         <div class="feature-content-v3">
                             <h4>Transparent Pricing</h4>
                             <p>No hidden charges</p>

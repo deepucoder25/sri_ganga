@@ -6,7 +6,7 @@
                 <!-- Column 1: About & Key Features -->
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <a href="<?= base_url() ?>" class="footer-logo">
-                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="eGati RELOCATION" loading="lazy">
+                        <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="eGati RELOCATION" loading="lazy">
                     </a>
                     <p class="footer-about-text">
                         India's most trusted packers and movers. We handle your precious belongings with zero-damage guarantee.
@@ -148,7 +148,8 @@
         </div>
     </div>
 </footer>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="<?= base_url('assets/js/swiper-bundle.min.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
