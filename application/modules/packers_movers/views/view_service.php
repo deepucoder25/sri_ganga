@@ -2,7 +2,6 @@
 $this->load->database();
 $this->load->helper('text');
 $st = strtolower(str_replace(" ", "-", $state));
-$this->load->helper('text');
 include 'city_content.php';
 $ctlink = strtolower(str_replace(" ", "-", $city));
 if (file_exists("./application/modules/packers_movers/views/data/$st.php")) {
@@ -17,477 +16,497 @@ foreach ($cities as $ct) {
         $state_code = $ct['sc'];
         break;
     }
+} ?>
+
+<style>
+/* Slider Breadcrumb Styling */
+.slider-breadcrumb-wrapper {
+    position: relative;
+    z-index: 20;
+    padding-top: 30px;
 }
-$state = ucwords($state);
-$city = ucwords($city);
-?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="<?= base_url('assets/css/view_service.css') ?>">
+.slider-breadcrumb {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 10px 25px;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.slider-breadcrumb .breadcrumb-item a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.slider-breadcrumb .breadcrumb-item a:hover {
+    color: #fba707;
+}
+.slider-breadcrumb .breadcrumb-item.active {
+    color: #fff;
+}
+.slider-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+    font-size: 1.2rem;
+    line-height: 1;
+    vertical-align: middle;
+    color: rgba(255,255,255,0.4);
+}
+</style>
 
-
-<section class="eg-hero-slider city-page-slider" aria-label="City Specific Relocation Slider">
+<!-- City Page Hero Slider -->
+<section class="eg-elite-hero py-5" aria-label="City Relocation Hero">
     <!-- Radio Controllers -->
-    <input type="radio" name="hero-slide" id="h-slide1" class="d-none" checked>
-    <input type="radio" name="hero-slide" id="h-slide2" class="d-none">
-    <input type="radio" name="hero-slide" id="h-slide3" class="d-none">
+    <input type="radio" name="hero-toggle" id="h-slide1" class="d-none" checked>
+    <input type="radio" name="hero-toggle" id="h-slide2" class="d-none">
+    <input type="radio" name="hero-toggle" id="h-slide3" class="d-none">
 
-    <!-- Breadcrumbs Overlay -->
-    <nav class="breadcrumb-nav-city" data-animate="fade-down">
+    <!-- Background Layer -->
+     <div class="hero-bg-container">
+        <div class="hero-bg-slide slide-1" style="background-image: url('<?= base_url('assets/images/home/banner1.png') ?>');"></div>
+        <div class="hero-bg-slide slide-2" style="background-image: url('<?= base_url('assets/images/home/banner2.png') ?>');"></div>
+        <div class="hero-bg-slide slide-3" style="background-image: url('<?= base_url('assets/images/home/banner3.png') ?>');"></div>
+        <div class="hero-overlay-dark"></div>
+    </div>
+
+    <!-- Content Wrapper -->
+    <div class="hero-content-wrapper z-index-10">
         <div class="container">
-            <ol class="breadcrumb-custom-city">
-                <li class="breadcrumb-item"><a href="<?= site_url() ?>">Home</a></li>
-                <li class="breadcrumb-item"><a href="<?= site_url('branches') ?>">Branches</a></li>
-                <li class="breadcrumb-item"><a href="<?= site_url(strtolower(str_replace(" ", "-", $state))) ?>"><?= $state ?></a></li>
-                <li class="breadcrumb-item active text-orange fw-bold"><?= $city ?></li>
-            </ol>
-        </div>
-    </nav>
+                
 
-    <div class="eg-slider-inner">
-        <!-- Slide 1: Primary City Service -->
-        <article class="eg-slide slide-1">
-            <div class="hero-bg" style="background-image: url('<?= base_url('assets/images/city/banner1.png') ?>');"></div>
-            <div class="hero-overlay"></div>
-            <div class="container position-relative z-index-10">
-                <div class="row align-items-center min-vh-100 pt-5">
-                    <div class="col-lg-7 text-white">
-                        <header class="mb-4 mt-5">
-                            <span class="badge bg-orange text-dark mb-3 px-3 py-2 fw-bold">LOCAL EXPERTS IN <?= strtoupper($city) ?></span>
-                            <h1 class="display-3 fw-black mb-3">Egati <span class="text-orange">Packers and Movers</span> in <?= $city ?></h1>
-                            <p class="lead opacity-75">Experience the gold standard of relocation in <?= $city ?>. Our premium team ensures every item is handled with surgical precision.</p>
-                        </header>
+            <div class="row align-items-center py-4 mt-4">
+                <!-- Left Side: Dynamic Content -->
+                 
+                <div class="col-lg-7 text-white mb-5 mb-lg-0 text-center text-lg-start">
+                    <!-- Breadcrumb overlay -->
+                <div class="slider-breadcrumb-wrapper text-center text-lg-start mb-2">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ol class="breadcrumb slider-breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="<?= base_url() ?>"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= site_url('our-branches') ?>">Branch</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><?= $state ?></li>
+                            <li class="breadcrumb-item active" aria-current="page"><?= $city ?></li>
+                        </ol>
+                    </nav>
+                </div>
+                    <div class="hero-text-slider">
                         
-                        <div class="row g-4 mb-5">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-shield-check text-orange"></i></div>
-                                    <div><strong class="d-block text-white">Elite Security</strong><small class="text-white-50">Premium Transit Insurance</small></div>
+                        <!-- Text Slide 1 -->
+                        <article class="hero-text-content content-1">
+                            <header class="mb-4">
+                                <span class="badge-elite mb-3">#1 RATED IN <?= strtoupper($city) ?></span>
+                                <h1 class="hero-title">Best <span class="text-accent">Packers and Movers</span> in <?= $city ?></h1>
+                                <p class="hero-desc">India's most trusted relocation experts now serving <?= $city ?>, <?= $state ?>. We handle your precious belongings with a zero-damage guarantee.</p>
+                            </header>
+                            
+                            <div class="hero-features-grid justify-content-center justify-content-lg-start">
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-shield-fill-check"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Safe Packing</strong>
+                                        <span>Premium materials used</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-geo-alt-fill"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Local Experts</strong>
+                                        <span>Serving all of <?= $city ?></span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-truck text-orange"></i></div>
-                                    <div><strong class="d-block text-white">Smart Logistics</strong><small class="text-white-50">AI-Optimized Routing in <?= $city ?></small></div>
-                                </div>
-                            </div>
-                        </div>
+                        </article>
 
-                        <div class="d-flex gap-3">
-                            <a href="tel:<?= $phone ?>" class="btn btn-orange-lg px-4 py-3 fw-bold rounded-pill shadow-lg">Call <?= $city ?> Hub <i class="bi bi-telephone-fill ms-2"></i></a>
-                            <label for="h-slide2" class="btn btn-outline-light px-4 py-3 fw-bold rounded-pill">Next Service <i class="bi bi-chevron-right ms-2"></i></label>
-                        </div>
+                        <!-- Text Slide 2 -->
+                        <article class="hero-text-content content-2">
+                           
+                            <header class="mb-4">
+                                <span class="badge-elite mb-3">SECURE TRANSPORT</span>
+                                <h2 class="hero-title">Secure <span class="text-accent">Car Shifting</span> from <?= $city ?></h2>
+                                <p class="hero-desc">Specialized vehicle carriers with GPS live tracking and full transit insurance for your peace of mind.</p>
+                            </header>
+                            
+                            <div class="hero-features-grid justify-content-center justify-content-lg-start">
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-truck"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Enclosed Carriers</strong>
+                                        <span>Safe from weather & dust</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-shield-lock-fill"></i></div>
+                                    <div class="feature-text">
+                                        <strong>100% Insured</strong>
+                                        <span>Complete transit protection</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Text Slide 3 -->
+                        <article class="hero-text-content content-3">
+                            <header class="mb-4">
+                                <span class="badge-elite mb-3">CORPORATE MOVE</span>
+                                <h2 class="hero-title">Expert <span class="text-accent">Office Relocation</span> in <?= $city ?></h2>
+                                <p class="hero-desc">Minimize business downtime with our strategic corporate relocation planning and execution.</p>
+                            </header>
+                            
+                            <div class="hero-features-grid justify-content-center justify-content-lg-start">
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-hdd-network"></i></div>
+                                    <div class="feature-text">
+                                        <strong>IT Handling</strong>
+                                        <span>Safe server & system move</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item-elite">
+                                    <div class="icon-circle"><i class="bi bi-calendar-check"></i></div>
+                                    <div class="feature-text">
+                                        <strong>Weekend Moves</strong>
+                                        <span>Zero business disruption</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <div class="col-lg-5 mt-5 mt-lg-0">
+                </div>
+
+                <!-- Right Side: STATIC FORM -->
+                <div class="col-lg-5">
+                    <div class="form-wrapper-elite">
                         <?php $this->load->view('contacts/quoteform') ?>
+                        <div class="form-footer-note">
+                            <i class="bi bi-shield-lock-fill"></i> 100% Privacy Guaranteed
+                        </div>
                     </div>
                 </div>
+                
             </div>
-        </article>
-
-        <!-- Slide 2: Home Shifting Special -->
-        <article class="eg-slide slide-2">
-            <div class="hero-bg" style="background-image: url('<?= base_url('assets/images/city/banner2.png') ?>');"></div>
-            <div class="hero-overlay"></div>
-            <div class="container position-relative z-index-10">
-                <div class="row align-items-center min-vh-100 pt-5">
-                    <div class="col-lg-7 text-white">
-                        <header class="mb-4 mt-5">
-                            <span class="badge bg-orange text-dark mb-3 px-3 py-2 fw-bold">PREMIUM HOME SHIFTING</span>
-                            <h2 class="display-3 fw-black mb-3">Luxury <span class="text-orange">Home Moving</span> <?= $city ?></h2>
-                            <p class="lead opacity-75">Your home is your sanctuary. In <?= $city ?>, we provide white-glove shifting services for your most precious belongings.</p>
-                        </header>
-                        
-                        <div class="row g-4 mb-5">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-box-seam text-orange"></i></div>
-                                    <div><strong class="d-block text-white">5-Layer Packing</strong><small class="text-white-50">Ultimate Fragile Care</small></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-house-check text-orange"></i></div>
-                                    <div><strong class="d-block text-white">Zero-Damage</strong><small class="text-white-50">Our Promise in <?= $city ?></small></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-3">
-                            <a href="tel:<?= $phone ?>" class="btn btn-orange-lg px-4 py-3 fw-bold rounded-pill shadow-lg">Get Free Quote <i class="bi bi-lightning-fill ms-2"></i></a>
-                            <label for="h-slide3" class="btn btn-outline-light px-4 py-3 fw-bold rounded-pill">Vehicle Logistics <i class="bi bi-chevron-right ms-2"></i></label>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mt-5 mt-lg-0">
-                        <?php $this->load->view('contacts/quoteform') ?>
-                    </div>
-                </div>
-            </div>
-        </article>
-
-        <!-- Slide 3: Car & Bike Transport -->
-        <article class="eg-slide slide-3">
-            <div class="hero-bg" style="background-image: url('<?= base_url('assets/images/city/banner3.png') ?>');"></div>
-            <div class="hero-overlay"></div>
-            <div class="container position-relative z-index-10">
-                <div class="row align-items-center min-vh-100 pt-5">
-                    <div class="col-lg-7 text-white">
-                        <header class="mb-4 mt-5">
-                            <span class="badge bg-orange text-dark mb-3 px-3 py-2 fw-bold">VEHICLE LOGISTICS</span>
-                            <h2 class="display-3 fw-black mb-3">Enclosed <span class="text-orange">Vehicle Transport</span></h2>
-                            <p class="lead opacity-75">Relocating your vehicle from <?= $city ?>? We use specialized carriers with real-time GPS tracking for total peace of mind.</p>
-                        </header>
-                        
-                        <div class="row g-4 mb-5">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-truck text-orange"></i></div>
-                                    <div><strong class="d-block text-white">GPS Live Tracking</strong><small class="text-white-50">Track from <?= $city ?></small></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-box-sm bg-white-10 rounded"><i class="bi bi-shield-lock text-orange"></i></div>
-                                    <div><strong class="d-block text-white">Full Insurance</strong><small class="text-white-50">Comprehensive Coverage</small></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-3">
-                            <a href="tel:<?= $phone ?>" class="btn btn-orange-lg px-4 py-3 fw-bold rounded-pill shadow-lg">Enquire Now <i class="bi bi-telephone-fill ms-2"></i></a>
-                            <label for="h-slide1" class="btn btn-outline-light px-4 py-3 fw-bold rounded-pill">Main Service <i class="bi bi-arrow-left ms-2"></i></label>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mt-5 mt-lg-0">
-                        <?php $this->load->view('contacts/quoteform') ?>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </div>
-
-    <!-- Navigation Dots -->
-    <nav class="slider-controls" aria-label="Slider Navigation">
-        <label for="h-slide1" class="ctrl-dot" aria-label="Go to slide 1"></label>
-        <label for="h-slide2" class="ctrl-dot" aria-label="Go to slide 2"></label>
-        <label for="h-slide3" class="ctrl-dot" aria-label="Go to slide 3"></label>
-    </nav>
-</section>
-<!-- About Us Section -->
-<section class="about-section" id="about">
-    <div class="about-shape"></div>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-image-grid">
-                    <div class="about-img-1">
-                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800" alt="Moving logistics in <?= $city ?>">
-                    </div>
-                    <div class="about-experience-card">
-                        <div class="about-exp-num">10+</div>
-                        <div class="about-exp-text">
-                            <span class="d-block fw-bold text-dark">Years Of</span>
-                            <span class="d-block text-muted">Excellence</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-content-wrapper">
-                    <span class="about-tag">Since 2014</span>
-                    <h2 class="about-title">Leading the Future of <span>Seamless Relocation</span> in <?= $city ?></h2>
-                    <p class="lead fw-bold text-primary mb-4">We don't just move boxes, we move lives with precision and care in <?= $city ?>.</p>
-                    <p class="text-muted mb-5">At Egati Relocation, we've spent a decade perfecting the art of transition. Our mission is to transform the stress of moving into a seamless, high-end experience through technology-driven logistics and elite customer service for the <?= $city ?> community.</p>
-                    
-                    <div class="about-features">
-                        <div class="about-f-item">
-                            <div class="about-f-icon"><i class="fas fa-user-shield"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">Safe & Insured</h6>
-                                <small class="text-muted">Total asset protection</small>
-                            </div>
-                        </div>
-                        <div class="about-f-item">
-                            <div class="about-f-icon"><i class="fas fa-clock"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">On-Time Always</h6>
-                                <small class="text-muted">Precision scheduling in <?= $city ?></small>
-                            </div>
-                        </div>
-                        <div class="about-f-item">
-                            <div class="about-f-icon"><i class="fas fa-box-open"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">Smart Packing</h6>
-                                <small class="text-muted">Eco-grade materials</small>
-                            </div>
-                        </div>
-                        <div class="about-f-item">
-                            <div class="about-f-icon"><i class="fas fa-headset"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">24/7 Support</h6>
-                                <small class="text-muted">Local <?= $city ?> assistance</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Slider Navigation -->
+            <div class="hero-nav-dots mt-4 justify-content-center">
+                <label for="h-slide1" class="dot" aria-label="Slide 1"></label>
+                <label for="h-slide2" class="dot" aria-label="Slide 2"></label>
+                <label for="h-slide3" class="dot" aria-label="Slide 3"></label>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Process Section (City Page Unique) -->
-<section class="city-process-section py-5" id="how-it-works">
-    <div class="container">
-        <div class="text-center mb-5 pb-4">
-            <span class="about-tag">Execution Roadmap</span>
-            <h2 class="about-title">How We Move You in <span><?= $city ?></span></h2>
-            <p class="text-muted mx-auto" style="max-width: 600px;">Our specialized local process for <?= $city ?> ensures a stress-free transition from start to finish.</p>
-        </div>
-
-        <div class="city-roadmap">
-            <!-- Step 1 -->
-            <div class="roadmap-step">
-                <div class="roadmap-icon-wrap">
-                    <div class="roadmap-icon"><i class="fas fa-search-location"></i></div>
-                    <div class="roadmap-number">01</div>
-                </div>
-                <div class="roadmap-content">
-                    <h4>Local Assessment</h4>
-                    <p>On-site or virtual survey of your assets in <?= $city ?> to provide a precise, no-hidden-cost quote.</p>
-                </div>
-                <div class="roadmap-connector"></div>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="roadmap-step">
-                <div class="roadmap-icon-wrap">
-                    <div class="roadmap-icon"><i class="fas fa-box-open"></i></div>
-                    <div class="roadmap-number">02</div>
-                </div>
-                <div class="roadmap-content">
-                    <h4>Premium Packing</h4>
-                    <p>Surgical-grade packing by our <?= $city ?> experts using high-end materials for maximum protection.</p>
-                </div>
-                <div class="roadmap-connector"></div>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="roadmap-step">
-                <div class="roadmap-icon-wrap">
-                    <div class="roadmap-icon"><i class="fas fa-truck-moving"></i></div>
-                    <div class="roadmap-number">03</div>
-                </div>
-                <div class="roadmap-content">
-                    <h4>Smart Transit</h4>
-                    <p>Secure GPS-tracked transportation optimized for the quickest routes through <?= $city ?> traffic.</p>
-                </div>
-                <div class="roadmap-connector"></div>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="roadmap-step">
-                <div class="roadmap-icon-wrap">
-                    <div class="roadmap-icon"><i class="fas fa-home"></i></div>
-                    <div class="roadmap-number">04</div>
-                </div>
-                <div class="roadmap-content">
-                    <h4>Perfect Setup</h4>
-                    <p>Careful unloading and full assembly of your items at your new <?= $city ?> destination.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Why Choose Us Section (City Page Redesigned) -->
-<section class="city-why-section py-5" id="why-choose-us">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Content Side -->
-            <div class="col-lg-6">
-                <div class="why-content-wrap">
-                    <span class="about-tag">The Elite Advantage</span>
-                    <h2 class="about-title">Why <span><?= $city ?></span> Trusts Egati Relocation</h2>
-                    <p class="text-muted mb-5">We've redefined the moving industry in <?= $city ?> by combining technology-driven logistics with a personal touch. Here's why we are the preferred choice for elite relocations.</p>
-
-                    <div class="why-feature-list">
-                        <!-- Feature 1 -->
-                        <div class="why-feature-item">
-                            <div class="why-feature-icon"><i class="fas fa-user-shield"></i></div>
-                            <div class="why-feature-text">
-                                <h6>Elite Security & Insurance</h6>
-                                <p>Full transit protection and GPS tracking for every move in <?= $city ?>.</p>
-                            </div>
-                        </div>
-                        <!-- Feature 2 -->
-                        <div class="why-feature-item">
-                            <div class="why-feature-icon"><i class="fas fa-medal"></i></div>
-                            <div class="why-feature-text">
-                                <h6>Certified Local Experts</h6>
-                                <p>Our <?= $city ?> team is highly trained and background-verified.</p>
-                            </div>
-                        </div>
-                        <!-- Feature 3 -->
-                        <div class="why-feature-item">
-                            <div class="why-feature-icon"><i class="fas fa-search-dollar"></i></div>
-                            <div class="why-feature-text">
-                                <h6>Guaranteed Fixed Pricing</h6>
-                                <p>No hidden costs or last-minute surprises for your <?= $city ?> move.</p>
-                            </div>
-                        </div>
-                        <!-- Feature 4 -->
-                        <div class="why-feature-item">
-                            <div class="why-feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                            <div class="why-feature-text">
-                                <h6>White-Glove Handling</h6>
-                                <p>Delicate care and premium packing materials for your valuables.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image Side -->
-            <div class="col-lg-6 mt-5 mt-lg-0">
-                <div class="why-image-wrapper">
-                    <div class="why-image-inner">
-                        <img src="<?= base_url('assets/images/city/why_choose_us.png') ?>" alt="Why choose Egati in <?= $city ?>" class="img-fluid rounded-4 shadow-lg">
-                        <div class="why-floating-badge">
-                            <div class="badge-icon"><i class="fas fa-check-circle"></i></div>
-                            <div class="badge-text">
-                                <strong>100%</strong>
-                                <span>Safe Delivery</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="why-shape-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Pricing Section (Precision Matrix Redesign) -->
-<section class="city-pricing-section py-5" id="pricing">
-    <div class="container">
-        <div class="pricing-matrix-wrapper">
-            <div class="matrix-top-bar d-flex justify-content-between align-items-center mb-4">
-                <div class="matrix-title-box">
-                    <h2 class="matrix-main-title">Home Shifting Charges</h2>
-                    <p class="matrix-subtitle text-muted">Estimated cost based on BHK and distance in <?= $city ?></p>
-                </div>
-                <div class="matrix-badge">
-                    <i class="bi bi-truck"></i> Home Shifting
-                </div>
-            </div>
-
-            <div class="table-responsive matrix-table-container">
-                <table class="table matrix-table">
-                    <thead>
-                        <tr>
-                            <th class="matrix-h-cell first">Shifting Type</th>
-                            <th class="matrix-h-cell">Up to 10 Km</th>
-                            <th class="matrix-h-cell">Up to 30 Km</th>
-                            <th class="matrix-h-cell">Up to 50 Km</th>
-                            <th class="matrix-h-cell">Up to 100 Km</th>
-                            <th class="matrix-h-cell last">Above 100 Km</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- 1 BHK -->
-                        <tr>
-                            <td class="matrix-type-cell">
-                                <div class="matrix-type-box">
-                                    <div class="matrix-type-icon"><i class="bi bi-house"></i></div>
-                                    <span>1 BHK</span>
-                                </div>
-                            </td>
-                            <td>₹4,000 - ₹8,000</td>
-                            <td>₹6,000 - ₹12,000</td>
-                            <td>₹8,000 - ₹15,000</td>
-                            <td>₹10,000 - ₹18,000</td>
-                            <td>₹12,000 - ₹22,000</td>
-                        </tr>
-                        <!-- 2 BHK -->
-                        <tr>
-                            <td class="matrix-type-cell">
-                                <div class="matrix-type-box">
-                                    <div class="matrix-type-icon"><i class="bi bi-building"></i></div>
-                                    <span>2 BHK</span>
-                                </div>
-                            </td>
-                            <td>₹6,000 - ₹12,000</td>
-                            <td>₹10,000 - ₹18,000</td>
-                            <td>₹14,000 - ₹22,000</td>
-                            <td>₹18,000 - ₹28,000</td>
-                            <td>₹22,000 - ₹35,000</td>
-                        </tr>
-                        <!-- 3 BHK -->
-                        <tr>
-                            <td class="matrix-type-cell">
-                                <div class="matrix-type-box">
-                                    <div class="matrix-type-icon"><i class="bi bi-house-heart"></i></div>
-                                    <span>3 BHK</span>
-                                </div>
-                            </td>
-                            <td>₹10,000 - ₹18,000</td>
-                            <td>₹15,000 - ₹25,000</td>
-                            <td>₹20,000 - ₹32,000</td>
-                            <td>₹25,000 - ₹40,000</td>
-                            <td>₹30,000 - ₹50,000</td>
-                        </tr>
-                        <!-- 4 BHK+ -->
-                        <tr>
-                            <td class="matrix-type-cell">
-                                <div class="matrix-type-box">
-                                    <div class="matrix-type-icon"><i class="bi bi-house-fill"></i></div>
-                                    <span>4 BHK+</span>
-                                </div>
-                            </td>
-                            <td>₹15,000 - ₹25,000</td>
-                            <td>₹22,000 - ₹35,000</td>
-                            <td>₹28,000 - ₹45,000</td>
-                            <td>₹35,000 - ₹55,000</td>
-                            <td>₹45,000 - ₹70,000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-           <div class="matrix-footer-info mt-4 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
-    
-    <p class="small text-muted mb-0">
-        * Prices are indicative. Final quote depends on volume of goods and packing material.
-    </p>
-
-    <a href="tel:<?= $phone ?>" class="btn matrix-call-btn">
-        Request Quote <i class="bi bi-arrow-right"></i>
-    </a>
-
-</div>
-        </div>
-    </div>
-</section>
-<!-- Relevant Keywords Section (Simplified Centered) -->
-<section class="city-keywords-section py-5">
-    <div class="container">
-        <div class="keywords-simple-wrapper text-center">
-            <h2 class="keyword-main-title mb-3">Relevant Keywords for <span><?= $city ?></span></h2>
-            <p class="keyword-desc text-muted mx-auto mb-5" style="max-width: 700px;">Explore the most frequently searched terms and local services related to packers and movers in <?= $city ?> area.</p>
+<!-- Elite City Page Content - Sidebar Layout -->
+<section class="py-5 bg-light">
+    <div class="container py-lg-4">
+        <div class="row g-5">
+             
             
-            <div class="keyword-tag-cloud">
-                <span class="k-tag">Packers and Movers in <?= $city ?></span>
-                <span class="k-tag">Best Moving Company <?= $city ?></span>
-                <span class="k-tag">Local House Shifting <?= $city ?></span>
-                <span class="k-tag">Car Transport Service <?= $city ?></span>
-                <span class="k-tag">Office Relocation in <?= $city ?></span>
-                <span class="k-tag">Affordable Movers <?= $city ?></span>
-                <span class="k-tag">Safe Delivery <?= $city ?></span>
-                <span class="k-tag">Intercity Shifting from <?= $city ?></span>
-                <span class="k-tag">Top Rated Packers <?= $city ?></span>
-                <span class="k-tag">Bike Courier <?= $city ?></span>
-                <span class="k-tag">Household Storage <?= $city ?></span>
-                <span class="k-tag">IBA Approved Movers <?= $city ?></span>
+            <!-- MAIN CONTENT AREA (col-8) -->
+            <div class="col-lg-8">
+                
+                <!-- 1. About Section -->
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 mb-5 border-0">
+                     <div class="col-12 mb-3">
+                            <img src="<?= base_url('assets/images/home_shifting_hero.png') ?>" alt="Moving Services in <?= $city ?>" class="img-fluid rounded-4 shadow-sm city-service-hover">
+                        </div>
+                    <span class="city-about-tag mb-4">
+                        <i class="bi bi-geo-alt-fill me-2"></i> EXPERT MOVERS IN <?= strtoupper($city) ?>
+                    </span>
+                    <h2 class="fw-bold text-dark mb-4">
+                        Stress-Free Relocation Services in <span class="text-orange"><?= $city ?></span>
+                    </h2>
+                    <p class="text-muted mb-4">
+                        eGati Relocation is the most trusted name for packers and movers in <?= $city ?>, <?= $state ?>. Whether you are moving locally within the city or planning an interstate relocation, our trained professionals handle your belongings with extreme care. 
+                    </p>
+                    
+                    <h4 class="fw-bold mb-3 mt-5 mb-4">Why Choose Us for Moving to <?= $city ?>?</h4>
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="bg-light  border p-2 rounded-3 shadow-sm">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1 text-dark">100% Safe Handling</h5>
+                                    <p class="text-muted mb-0">Zero damage guarantee for all your household items.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="bg-light  border p-2 rounded-3 shadow-sm">
+                                    <i class="bi bi-person-badge"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1 text-dark">Verified Local Staff</h5>
+                                    <p class="text-muted mb-0">Background-checked professionals from <?= $city ?>.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="bg-light  border p-2 rounded-3 shadow-sm">
+                                    <i class="bi bi-box-seam"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1 text-dark">Premium Packaging</h5>
+                                    <p class="text-muted mb-0">3-layer secure packing for ultimate safety.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="bg-light  border p-2 rounded-3 shadow-sm">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1 text-dark">Live GPS Tracking</h5>
+                                    <p class="text-muted mb-0">Track your moving truck in real-time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Packing and Unpacking Process -->
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 mb-5 border-0">
+                    <h3 class="fw-bold text-dark mb-4">Our Simple 5-Step Process</h3>
+                    <p class="text-muted mb-5">We follow a streamlined process to ensure your relocation in <?= $city ?> is incredibly smooth.</p>
+                    
+                    <div class="position-relative">
+                        <!-- Step 1 -->
+                        <div class="d-flex mb-4 position-relative">
+                            <div class="me-4 position-relative z-1">
+                                <div class="rounded-circle bg-light border border-primary  city-step-icon-sm shadow-sm">1</div>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2">Enquiry & Consultation</h5>
+                                <p class="text-muted mb-0">Share your requirements. We provide a quick consultation for moving in <?= $city ?>.</p>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="d-flex mb-4 position-relative">
+                            <div class="me-4 position-relative z-1">
+                                <div class="rounded-circle bg-light border border-primary  city-step-icon-sm shadow-sm">2</div>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2">Free Quote & Survey</h5>
+                                <p class="text-muted mb-0">We conduct a physical or virtual survey and provide a transparent quote.</p>
+                            </div>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="d-flex mb-4 position-relative">
+                            <div class="me-4 position-relative z-1">
+                                <div class="rounded-circle bg-light border border-primary  city-step-icon-sm shadow-sm">3</div>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2">Safe Packing</h5>
+                                <p class="text-muted mb-0">Our expert team arrives on the scheduled date to pack your items securely.</p>
+                            </div>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="d-flex mb-4 position-relative">
+                            <div class="me-4 position-relative z-1">
+                                <div class="rounded-circle bg-light border border-primary  city-step-icon-sm shadow-sm">4</div>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2">Secure Transportation</h5>
+                                <p class="text-muted mb-0">We transport your belongings in enclosed carriers safely to the destination.</p>
+                            </div>
+                        </div>
+                        <!-- Step 5 -->
+                        <div class="d-flex position-relative">
+                            <div class="me-4 position-relative z-1">
+                                <div class="rounded-circle bg-light border border-primary  city-step-icon-sm shadow-sm">5</div>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-dark mb-2">Delivery & Unpacking</h5>
+                                <p class="text-muted mb-0">We safely deliver, unload, and help unpack your items in your new home.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: Additional Content Block -->
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 mb-5 border-0">
+                    <div class="row align-items-center g-4">
+                        <div class="col-md-12">
+                            <h3 class="fw-bold text-dark mb-4">Local and Intercity Shifting from <?= $city ?></h3>
+                            <p class="text-muted mb-4">
+                                Whether you are moving to a new neighborhood within <?= $city ?> or relocating to a completely different state, our comprehensive moving solutions are tailored to meet your specific needs. Local moves are completed within the same day with quick packing and transit, ensuring zero disruption to your daily routine.
+                            </p>
+                            <p class="text-muted mb-0">
+                                For long-distance and intercity relocations, we provide specialized multi-layer packing, dedicated moving coordinators, and enclosed carriers to protect your goods over long transit times. With our <strong>100% Transit Insurance</strong>, you can rest assured that your high-value items, furniture, and electronics are financially protected.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Testimonials -->
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 mb-5 border-0">
+                    <h3 class="fw-bold text-dark mb-4">Client Reviews from <?= $city ?></h3>
+                    
+                    <div class="swiper city-testi-swiper px-2 pb-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-light p-4 rounded-3 h-100 position-relative border d-flex flex-column">
+                                    <i class="bi bi-quote position-absolute top-0 end-0 m-3 text-orange city-quote-icon"></i>
+                                    <div class="text-warning mb-3">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="text-muted fst-italic mb-4">"Moving from Delhi to <?= $city ?> was a huge concern, but eGati made it incredibly smooth. Highly recommended!"</p>
+                                    <div class="d-flex align-items-center gap-3 mt-auto">
+                                        <div class="bg-primary text-white rounded-circle city-testi-avatar-sm">R</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Rahul Sharma</h6>
+                                            <div class="text-muted">Relocated to <?= $city ?></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide h-auto">
+                                <div class="bg-light p-4 rounded-3 h-100 position-relative border d-flex flex-column">
+                                    <i class="bi bi-quote position-absolute top-0 end-0 m-3 text-orange city-quote-icon"></i>
+                                    <div class="text-warning mb-3">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="text-muted fst-italic mb-4">"Hired them for local shifting within <?= $city ?>. Team was professional, packed quickly, nothing was damaged."</p>
+                                    <div class="d-flex align-items-center gap-3 mt-auto">
+                                        <div class="bg-success text-white rounded-circle city-testi-avatar-sm">P</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Priya Patel</h6>
+                                            <div class="text-muted">Local Move in <?= $city ?></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+
+                <!-- 4. FAQs -->
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 border-0">
+                    <h3 class="fw-bold text-dark mb-4">Moving to <?= $city ?> FAQs</h3>
+                    
+                    <div class="accordion" id="cityFaqAccordion">
+                        <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-light fw-bold text-dark shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How much do packers and movers charge in <?= $city ?>?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#cityFaqAccordion">
+                                <div class="accordion-body text-muted">
+                                    The cost depends on the volume of goods, the distance, and the type of service. For local shifting within <?= $city ?>, prices generally start around ₹4,000. Contact us for a free quote.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border rounded-3 overflow-hidden">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-light fw-bold text-dark shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Do you provide transit insurance?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#cityFaqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Yes! We highly recommend transit insurance for all long-distance relocations from <?= $city ?> to ensure your belongings are financially protected against any unforeseen circumstances.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded-3 overflow-hidden">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-light fw-bold text-dark shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Do you pack and move fragile items safely?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#cityFaqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Absolutely. Our expert team in <?= $city ?> uses premium packing materials such as bubble wrap and customized cartons to ensure fragile items are completely safe.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            <!-- SIDEBAR AREA (col-4) -->
+            <div class="col-lg-4">
+                <div class="position-sticky city-sidebar-sticky">
+                    
+                    <!-- Sidebar Box 1: Quick Contact -->
+                    <div class="rounded-4 shadow-sm p-4 mb-4 border-0 text-center city-contact-box">
+                        <i class="bi bi-headset display-4 mb-3 d-block anim-attract-float"></i>
+                        <h4 class="fw-bold mb-2">Need Immediate Help?</h4>
+                        <p class="small opacity-75 mb-4">Our <?= $city ?> experts are available 24/7</p>
+                        <a href="tel:+919876543210" class="btn btn-primary text-white rounded-pill fw-bold w-100 py-3 shadow-sm d-flex align-items-center justify-content-center gap-2 anim-attract-pulse">
+                            <i class="bi bi-telephone-fill"></i> +91-9876543210
+                        </a>
+                    </div>
+
+                    <!-- Sidebar Box 2: Working Hours -->
+                    <div class="bg-white rounded-4 shadow-sm p-4 mb-4 border border-light">
+                        <h5 class="fw-bold text-dark mb-3"><i class="bi bi-clock me-2 "></i> Working Hours</h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="text-muted fw-medium">Mon - Sat:</span>
+                            <span class="text-dark fw-bold">9:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-muted fw-medium">Sunday:</span>
+                            <span class="text-danger fw-bold">Open for Emergency</span>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar Box 3: Trust Badges -->
+                    <div class="bg-white rounded-4 shadow-sm p-4 border border-light">
+                        <h5 class="fw-bold text-dark mb-4 pb-2 border-bottom">Why eGati Relocation?</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-center gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="fw-medium text-secondary">ISO 9001:2015 Certified</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="fw-medium text-secondary">IBA Approved Packers</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="fw-medium text-secondary">100% Safe Transit</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="fw-medium text-secondary">24/7 Customer Support</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
+
+<!-- Initialize City Swiper -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    new Swiper('.city-testi-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            }
+        },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        }
+    });
+});
+</script>
