@@ -8,13 +8,14 @@
                     <span class="eg-mini-tag mb-3">
                         <i class="bi bi-people-fill"></i> ABOUT US
                     </span>
-                    <h2 class="eg-section-title mb-4">
-                        We Make Every Move
-                        <span class="text-orange">Simple & Stress-Free</span>
+                    <h2 class="eg-section-title mb-4 fs-3">
+                        Our Simple Relocation Support 
+                        <span class="text-orange">For Homes, Offices, And Daily Life</span>
                     </h2>
-                    <p class="eg-about-desc mb-4">
-                        eGati Relocation is one of India's most trusted packers and movers, delivering safe, reliable and affordable home shifting services across the country. With a strong network, experienced team and customer-first approach, we ensure your belongings reach your new home safely and on time.
+                    <p class="eg-about-desc mb-0">
+                        Most people think shifting is mainly about transport. Then the moving day arrives. Suddenly there are cartons everywhere, furniture stuck in doorways, missing tape rolls, delayed vehicles, and endless phone calls. That is usually the point where relocation starts feeling exhausting.
                     </p>
+                    <p class="eg-about-desc mb-3">The <strong>E Gati Relocation Packers and Movers Company</strong> provides relocation services for individuals seeking an organised, less stressful experience throughout the entire process. Services provided include packing, loading, transporting, unloading and coordinating and arranging your relocation between cities in India.</p>
 
                     <div class="eg-about-check-list mb-5">
                         <div class="check-item">
