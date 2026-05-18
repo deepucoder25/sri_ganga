@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2000;
+    z-index: 1040; /* Lowered from 2000 to be below Bootstrap modals (1055) */
 }
 
 /* Top Bar (Blue) */
@@ -238,3 +238,17 @@
         height: 100px;
     }
 }
+
+/* --- Elite Quote Modal Styling --- */
+.qte-modal-dialog { max-width: 650px; }
+.qte-modal-content { border-radius: 15px; overflow: hidden; }
+.qte-input-group { background: #f8f9fa; border-radius: 10px; border: 1px solid rgba(0,0,0,0.05); transition: 0.3s ease; }
+.qte-input-group:focus-within { border-color: var(--p-blue); box-shadow: 0 0 0 4px rgba(0, 86, 179, 0.1); background: #fff; }
+.qte-input-group .input-group-text { background: transparent; border: none; color: var(--p-orange); }
+.qte-input-group .form-control { background: transparent; border: none; height: 45px; font-weight: 500; font-size: 14px; padding-left: 0; }
+.qte-input-group .form-control:focus { box-shadow: none; background: transparent; }
+.qte-input-group textarea.form-control { height: 70px; padding-top: 12px; }
+.qte-submit-btn { background: linear-gradient(90deg, #FBA707 0%, #0056b3 100%); border-radius: 50px; font-weight: 700; font-family: 'Outfit', sans-serif; font-size: 15px; border: none; transition: 0.3s ease; }
+.qte-submit-btn:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.15); transform: translateY(-2px); color: #fff; }
+.qte-reset-btn { font-size: 14px; transition: 0.3s ease; }
+.qte-reset-btn:hover { color: var(--p-orange) !important; }

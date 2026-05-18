@@ -2,7 +2,7 @@
 
 .eg-elite-hero {
     position: relative;
-    min-height: 100vh;
+    min-height: auto;
     width: 100%;
     overflow: hidden;
     background: var(--black);
@@ -65,7 +65,7 @@
 /* Text Slider Logic */
 .hero-text-slider {
     position: relative;
-    min-height: 520px; /* Increased to accommodate trust bar */
+    min-height: 400px; /* Decreased for a smaller slider */
 }
 
 .hero-text-content {
@@ -125,10 +125,10 @@
 }
 
 .hero-title {
-    font-size: clamp(2.5rem, 6vw, 4.8rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 900;
     line-height: 1.05;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     letter-spacing: -1px;
 }
 
@@ -137,10 +137,10 @@
 }
 
 .hero-desc {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     color: rgba(255, 255, 255, 0.9);
     max-width: 650px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -158,11 +158,11 @@
     gap: 15px;
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
-    padding: 18px 25px;
+    padding: 12px 20px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     transition: var(--transition-elite);
-    min-width: 280px;
+    min-width: 250px;
 }
 
 .feature-item-elite:hover {
@@ -172,14 +172,14 @@
 }
 
 .icon-circle {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     background: var(--p-orange);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
     flex-shrink: 0;
 }
@@ -240,14 +240,14 @@
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
     border: 1px solid var(--glass-border);
-    border-radius: 40px;
-    padding: 25px;
+    border-radius: 30px;
+    padding: 20px;
     box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
 }
 
 .form-footer-note {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     display: flex;
@@ -260,6 +260,66 @@
 .form-footer-note i {
     color: #4CAF50;
     font-size: 16px;
+}
+/* ===== Reduce Hero Height Only ===== */
+
+.eg-elite-hero{
+    padding: 20px 0;
+}
+
+.eg-elite-hero .min-vh-100{
+    min-height: 760px !important;
+}
+
+/* Content */
+.hero-text-slider{
+    min-height: 340px;
+}
+
+/* Title */
+.hero-title{
+    font-size: clamp(2rem,4vw,3.2rem);
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+/* Description */
+.hero-desc{
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+/* Feature Boxes */
+.feature-item-elite{
+    padding: 10px 16px;
+    min-width: 220px;
+}
+
+/* Form */
+.form-wrapper-elite{
+    padding: 18px;
+}
+
+/* Inputs */
+.modern-input .form-control{
+    height: 44px !important;
+}
+
+.textarea-box .form-control{
+    min-height: 80px !important;
+}
+
+/* Mobile */
+@media(max-width:991px){
+
+    .eg-elite-hero .min-vh-100{
+        min-height: auto !important;
+    }
+
+    .hero-text-slider{
+        min-height: 500px;
+    }
+
 }
 
 /* Responsive Overrides */
@@ -340,7 +400,7 @@
     position: absolute;
     left: 20px;
     color: var(--p-orange);
-    font-size: 18px;
+    font-size: 15px;
     z-index: 5;
 }
 
@@ -349,7 +409,7 @@
     border: 1px solid rgba(255, 255, 255, 0.12) !important;
     border-radius: 15px !important;
     color: #fff !important;
-    height: 55px !important;
+    height: 30px !important;
     padding-left: 55px !important; /* Space for icon */
 }
 
@@ -366,9 +426,9 @@
 }
 
 /* For older browsers */
-.modern-input .form-control::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
-.modern-input .form-control::-moz-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
-.modern-input .form-control:-ms-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
+.modern-input .form-control::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; font-size: 14px !important; }
+.modern-input .form-control::-moz-placeholder { color: rgba(255, 255, 255, 0.5) !important; font-size: 14px !important; }
+.modern-input .form-control:-ms-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; font-size: 14px !important; }
 
 
 .textarea-box i {
@@ -376,22 +436,19 @@
 }
 
 .textarea-box .form-control {
-    min-height: 120px !important;
+    min-height: 70px !important;
     padding-top: 15px !important;
 }
 
 .quote-title {
     color: var(--white);
-    font-weight: 900;
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
-    margin-bottom: 10px;
-    line-height: 1.2;
+    margin-bottom: 5px;
 }
 
 .quote-subtitle {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .mini-badge {
@@ -412,10 +469,10 @@
 
 .submit-btn {
     background: linear-gradient(90deg, #FBA707 0%, #0056b3 100%) !important;
-    border-radius: 15px !important;
+    border-radius: 12px !important;
     font-weight: 800 !important;
-    height: 60px !important;
-    font-size: 18px !important;
+    height: 40px !important;
+    font-size: 14px !important;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
 }
 

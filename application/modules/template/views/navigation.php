@@ -1,4 +1,5 @@
 <body>
+    <?php $this->load->view('contacts/quotemodal') ?>
 <header class="eg-header">
     <!-- Premium Top Bar (Blue) -->
     <div class="eg-top-bar">
@@ -43,7 +44,7 @@
                 <a href="tel:<?= $phone ?>" class="phone-icon-circle" title="Call Us">
                     <i class="bi bi-telephone-fill"></i>
                 </a>
-                <a href="#" class="quote-btn-elite" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                <a href="#" class="quote-btn-elite" data-bs-toggle="modal" data-bs-target="#qteModal">
                     QUICK QUOTE <i class="bi bi-send-fill"></i>
                 </a>
             </div>

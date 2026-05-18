@@ -15,7 +15,7 @@
     <!-- Content Wrapper (Sibling to Radios for CSS selectors) -->
     <div class="hero-content-wrapper z-index-10">
         <div class="container">
-            <div class="row align-items-center min-vh-100 py-5">
+            <div class="row align-items-center min-vh-80 py-2">
                 <!-- Left Side: Dynamic Content -->
                 <div class="col-lg-7 text-white mb-5 mb-lg-0 text-center text-lg-start">
                     <div class="hero-text-slider">
