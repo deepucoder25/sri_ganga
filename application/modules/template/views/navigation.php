@@ -86,8 +86,6 @@
 <!-- Header Spacer -->
 <div class="eg-nav-spacer"></div>
 
-<?php $this->load->view('contacts/quotemodal') ?>
-
 <script>
     const mobileOpen = document.getElementById('eg-mobile-open');
     const mobileClose = document.getElementById('eg-mobile-close');

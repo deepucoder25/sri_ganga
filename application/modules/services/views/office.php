@@ -36,12 +36,12 @@
                         <p class="text-muted mb-4">Services generally include:</p>
                         <ul>
                             <li>Workstation dismantling and reinstallation</li>
-<li>File and document carton packing</li>
-<li>Server and IT equipment handling</li>
-<li>Chair, desk, and conference table movement</li>
-<li>Glass partition protection packing</li>
-<li>Label-based inventory tracking</li>
-<li>Weekend and after-hours relocation support</li>
+                            <li>File and document carton packing</li>
+                            <li>Server and IT equipment handling</li>
+                            <li>Chair, desk, and conference table movement</li>
+                            <li>Glass partition protection packing</li>
+                            <li>Label-based inventory tracking</li>
+                            <li>Weekend and after-hours relocation support</li>
                         </ul>
                         <p class="text-muted mb-4">Many businesses searching for Office Shifting Near Me mainly worry about one thing, operational interruption. We address that directly through scheduled movement planning and department-wise shifting.</p>
                         <p class="text-muted mb-4">For instance, during an IT office transfer, network systems are packed separately using anti-static wrapping materials. That small detail makes a major difference during transportation.</p>

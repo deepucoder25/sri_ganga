@@ -28,8 +28,8 @@
                         </div>
 
                         <span class="text-uppercase fw-bold text-orange tracking-wide">ELITE CAR RELOCATION</span>
-                        <h2 class="display-5 fw-black text-dark mt-2 mb-4"><span class="dark-blue-text">Best Car Transportation Services</span> for Safe, Timely, and Stress-Free  </h2>
-                        <p class="lead text-muted mb-4 tall-line-height">Your car is not just another item to transport. It is valuable, essential for daily movement, and in many cases, emotionally important too. That is why <b>Top Car Transportation</b> matters far more than people initially think. A small mistake during loading, poor truck handling, or weak fastening systems can lead to scratches, tyre pressure damage, bumper cracks, or alignment issues during transit.</p>
+                        <h2 class="fw-black text-dark mt-2 mb-4"><span class="dark-blue-text">Best Car Transportation Services</span> for Safe, Timely, and Stress-Free  </h2>
+                        <p class="text-muted mb-4">Your car is not just another item to transport. It is valuable, essential for daily movement, and in many cases, emotionally important too. That is why <b>Top Car Transportation</b> matters far more than people initially think. A small mistake during loading, poor truck handling, or weak fastening systems can lead to scratches, tyre pressure damage, bumper cracks, or alignment issues during transit.</p>
                         <p class="lead text-muted mb-4 tall-line-height">At <strong>E Gati Relocation Packers and Movers</strong>, the focus stays on secure vehicle movement with proper planning and trained handling teams. Our <b>Best Car Transportation Services</b> are designed for customers shifting homes, relocating offices, moving across states, or sending premium vehicles safely to another city. And yes, many customers searching for <em>Car Transportation Services Near Me</em> mainly want transparency and reliability. That makes sense.</p>
                         <p class="lead text-muted mb-4 tall-line-height">For a smooth relocation, our team’s use of hydraulic loading ramps, wheel locking Systems, safety belts, covered carriers, and GPS-enabled tracking support will all work together. So if you are searching for the Top Car Transportation Services, you need more than a transport truck; you need proper coordination and careful execution.</p>
 
@@ -38,13 +38,13 @@
                         <p class="text-dark mb-4">Our Top Car Transportation Services generally include:</p>
                         <ul>
                             <li>Door-to-door pickup and delivery</li>
-<li>Covered car carrier transport</li>
-<li>Open trailer transport options</li>
-<li>Vehicle condition inspection reports</li>
-<li>GPS tracking assistance</li>
-<li>Wheel-lock and safety belt securing</li>
-<li>Interstate vehicle relocation support</li>
-<li>Insurance assistance for transit protection</li>
+                            <li>Covered car carrier transport</li>
+                            <li>Open trailer transport options</li>
+                            <li>Vehicle condition inspection reports</li>
+                            <li>GPS tracking assistance</li>
+                            <li>Wheel-lock and safety belt securing</li>
+                            <li>Interstate vehicle relocation support</li>
+                            <li>Insurance assistance for transit protection</li>
                         </ul>
                         <p class="text-muted mb-4">Many people searching online for <b>Car Transportation Near Me</b> are surprised to learn that covered carriers reduce dust exposure and weather-related surface damage significantly. That becomes especially important during long-distance transport across Indian highways.</p>
                         <p class="text-muted mb-4">And honestly, proper loading makes a huge difference. A badly positioned sedan inside a multi-car trailer can develop suspension pressure during long travel hours.</p>
@@ -116,11 +116,11 @@
                         <p class="text-dark mb-4">Professional teams reduce risks linked to:</p>
                         <ul>
                             <li>Paint scratches</li>
-<li>Battery drainage</li>
-<li>Fuel leakage</li>
-<li>Glass damage</li>
-<li>Underbody impact</li>
-<li>Delayed delivery schedules</li>
+                            <li>Battery drainage</li>
+                            <li>Fuel leakage</li>
+                            <li>Glass damage</li>
+                            <li>Underbody impact</li>
+                            <li>Delayed delivery schedules</li>
                         </ul>
                         <p class="text-muted mb-4">For instance, while transporting SUVs during monsoon season, experienced carriers use elevated positioning methods inside the trailer to reduce road-water exposure. Small industry details like this separate ordinary operators from the Best Car Transportation Services providers.</p>
                         <p class="text-muted mb-4">That is why customers searching for Local Car Transportation Services usually prefer organised companies with tracking support and proper transit procedures.</p>

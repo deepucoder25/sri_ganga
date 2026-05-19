@@ -109,12 +109,12 @@
                         <p class="text-muted mb-4">The cost of Home Shifting depends on several practical factors:</p>
                         <ul>
                             <li>Distance between locations</li>
-<li>Household size</li>
-<li>Packing material quantity</li>
-<li>Lift availability</li>
-<li>Vehicle size required</li>
-<li>Labour involvement</li>
-<li>Fragile or premium items</li>
+                            <li>Household size</li>
+                            <li>Packing material quantity</li>
+                            <li>Lift availability</li>
+                            <li>Vehicle size required</li>
+                            <li>Labour involvement</li>
+                            <li>Fragile or premium items</li>
                         </ul>
                         <p class="text-muted mb-4">Customers searching for <em>Best Home Shifting Services</em> often focus only on the lowest quotation. But extremely cheap pricing generally means reduced packing quality or untrained labour support.</p>
 

@@ -1,5 +1,5 @@
 <!-- Elite 5-Step Process Section -->
-<section class="eg-process-section py-5">
+<section class="eg-process-section py-5" style="background: linear-gradient(135deg, rgba(10,10,30,0.92) 0%, rgba(20,10,50,0.88) 100%), url('<?= base_url('assets/images/home/banner2.png') ?>') center center / cover no-repeat; background-attachment: fixed;">
     <div class="container">
         <!-- Header -->
         <div class="row justify-content-center text-center mb-5">

@@ -14,7 +14,7 @@
     <!-- Bike Service Details Section -->
     <section class="service-details-section py-5">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-5 align-items-start">
                 <!-- Main Content -->
                 <div class="col-lg-8">
                     <div class="service-content-wrapper p-4 p-lg-5 bg-white rounded-4 shadow-sm border-0 position-relative">
@@ -29,8 +29,17 @@
                         </div>
 
                         <span class="text-uppercase fw-bold text-orange tracking-wide">ELITE BIKE RELOCATION</span>
-                        <h2 class="display-5 fw-black text-dark mt-2 mb-4">Secure & Specialized <span class="dark-blue-text">Bike Carriers</span></h2>
-                        <p class="lead text-muted mb-4 tall-line-height">Your two-wheeler isn't just a vehicle; it's a prized possession. We utilize multi-layer packaging and specialized enclosed carriers to ensure your motorcycle or scooter reaches its destination exactly as it left.</p>
+                        <h2 class="fw-black text-dark mt-2 mb-4"><span class="dark-blue-text">Bike Transportation Services</span> for Safe Motorcycle and Scooter Shifting </h2>
+                        <p class="text-muted mb-4">Moving a bike sounds easy until the actual shifting day arrives. A small scratch on the fuel tank, pressure damage near the suspension, broken indicators, loose mirrors, these things happen more often than people expect during transport. That is exactly why many customers now prefer <b>professional Bike Transportation</b> instead of depending on random local carriers.</p>
+                        <p class="text-muted mb-4">A motorcycle needs careful loading, balanced placement inside the carrier, and proper wrapping before road movement starts. Long-distance travel creates constant vibration. Without protection layers, paint damage becomes common. People usually realize this after a bad experience.</p>
+                        <p class="text-muted mb-4">Customers searching online for <strong>Bike Transportation Services Near Me</strong> generally want quick pickup, safe delivery, and clear communication. Some are relocating for work. Some are sending bikes to college-going children. Others need urgent shifting after transfer orders. Different reasons, same concern, the bike should arrive safely.</p>
+                        <p class="text-muted mb-4"><b>E Gati Relocation Packers and Movers</b> provides organized support for scooters, motorcycles, electric bikes, and premium two-wheelers across Indian cities. The process stays simple, direct, and practical.</p>
+
+                        <h3 class="fw-black text-dark mt-2 mb-4">Why Professional Bike Transportation Matters More Than People Think</h3>
+                        <p class="text-muted mb-4">Some people try cheaper local options initially. Later, they spend more money repairing scratches, bent levers, cracked side panels, or damaged headlights. Poor loading usually causes those problems.</p>
+                        <p class="text-muted mb-4">Professional Bike Transportation follows proper handling methods. Trained staff use loading ramps, wheel supports, safety belts, and fixed positioning systems inside transport vehicles. Those small steps protect the bike during movement.</p>
+                        <p class="text-muted mb-4">For example, sports bikes require slow-angle loading because ground clearance stays low. If somebody pushes the bike aggressively onto the truck, the lower body can scrape instantly. Skilled handlers avoid that mistake naturally.</p>
+                        <p class="text-muted mb-4">Customers searching online for Bike Transportation Near Me also prefer organized companies because communication stays better during transit. Regular updates reduce stress. People know where the vehicle is moving and expected delivery timing.</p>
 
                         <!-- Features Grid -->
                         <div class="row g-4 mt-2 mb-5">
@@ -92,42 +101,107 @@
                             </div>
                         </div>
 
+                        <h5 class="fw-black text-dark mt-2 mb-4">Popular Two-Wheeler Moving Services Customers Request</h5>
+                        <p class="text-muted mb-4">Transport requirements change depending on customer needs. Some common requests include:</p>
+                        <ul>
+                            <li>Interstate motorcycle shifting</li>
+                            <li>Scooter transport service</li>
+                            <li>Sports bike moving support</li>
+                            <li>Electric bike relocation</li>
+                            <li>Door-to-door two-wheeler transport</li>
+                            <li>Enclosed premium bike carrier service</li>
+                        </ul>
+                        <p class="text-muted mb-4">These services are available through experienced <em>Local Bike Transportation Services</em> operating across India.</p>
+
+                        <h5 class="fw-black text-dark mt-2 mb-4">Bike Transportation Pricing and Cost Factors</h5>
+                        <p class="text-muted mb-4">The total cost depends on distance, bike model, carrier type, urgency, and packing requirements. Premium motorcycles usually require stronger protection support during movement.</p>
+                        <p class="text-muted mb-4">Yes, proper Bike Transportation costs more than unorganized local shifting. But repair bills after careless handling usually cost much higher later. That is why experienced customers compare service quality first, not only price.</p>
+                        <p class="text-muted mb-4">People checking <b>Best Bike Transportation Services</b> should always ask about loading methods, safety materials, and delivery coordination before booking.</p>
+
                         <!-- FAQ Section -->
                         <h3 class="fw-bold mb-4 mt-5 border-bottom pb-3">Frequently Asked Questions</h3>
                         <div class="accordion elite-accordion" id="bikeFaq">
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingOne">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
-                                        Do I need to empty the petrol tank before shipping?
+                                        How long does Bike Transportation usually take?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#bikeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Yes, for safety and compliance with transport regulations, we request that you reduce the fuel level to an absolute minimum or empty it entirely before handover.
+                                        Most routes take around 3 to 7 days depending on city distance and transport conditions.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingTwo">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
-                                        How is my bike packed for transport?
+                                        Is insurance available during shifting?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#bikeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        We use a multi-layered packing process involving bubble wrap, corrugated sheets, and specialized stretch film to ensure maximum protection against scratches and impacts.
+                                        Yes, transit insurance support can be arranged for added protection.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingThree">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
-                                        Is my bike insured during the move?
+                                        Can electric scooters be transported safely?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#bikeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Yes, we provide comprehensive transit insurance options. Your vehicle is fully covered against any unforeseen circumstances during the journey for complete peace of mind.
+                                        Yes. Special handling methods are used for battery-operated vehicles.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfour">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefour" aria-expanded="false" aria-controls="faqCollapsefour">
+                                      What documents are required?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefour" class="accordion-collapse collapse" aria-labelledby="faqHeadingfour" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                       Generally, RC copy, ID proof, and booking confirmation details are needed.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfive">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefive" aria-expanded="false" aria-controls="faqCollapsefive">
+                                      Why do people prefer Top Bike Transportation Services?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefive" class="accordion-collapse collapse" aria-labelledby="faqHeadingfive" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                      Professional handling reduces damage risk during loading and road movement.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingsix">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsesix" aria-expanded="false" aria-controls="faqCollapsesix">
+                                      Are enclosed carriers available?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsesix" class="accordion-collapse collapse" aria-labelledby="faqHeadingsix" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                      Yes. Premium motorcycles and sports bikes often move through enclosed carrier setups.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingseven">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseseven" aria-expanded="false" aria-controls="faqCollapseseven">
+                                      Do you provide Local Bike Transportation Services inside cities?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseseven" class="accordion-collapse collapse" aria-labelledby="faqHeadingseven" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                      Yes, short-distance city shifting support is available along with interstate transport solutions.
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +212,7 @@
 
                 <!-- Sidebar Content -->
                 <div class="col-lg-4">
-                    <div class="service-sidebar sticky-top pt-top-100">
+                    <div class="service-sidebar">
                         
                         <!-- Contact Help Box -->
                         <div class="help-box p-4 rounded-4 shadow-sm mb-4 position-relative overflow-hidden">
