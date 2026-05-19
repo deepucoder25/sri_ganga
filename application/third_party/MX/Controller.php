@@ -51,13 +51,13 @@ class MX_Controller
         $this->load = clone load_class('Loader');
         $this->load->initialize($this);
 
-        $this->comp['phone'] = '+91 123456789';
-        $this->comp['phonehtml'] = 'tel:+91 123456789';
+        $this->comp['phone'] = '+91 9931112177';
+        $this->comp['phonehtml'] = 'tel:+91 9931112177';
         $this->comp['supportmail'] = 'support@packersandmovers.in';
         $this->comp['replyToMail'] = 'info@packersandmovers.in';
         $this->comp['mail'] = 'info@packersandmovers.com';
         $this->comp['mailhtml'] = "mailto:info@packersandmovers.com";
-        $this->comp['company3'] = 'Packers and Movers';
+        $this->comp['company3'] = 'EGati Packers and Movers';
         $this->comp['companydomain'] = 'groveus.com';
 
         $this->comp['facebookhtml'] = "";
@@ -67,9 +67,9 @@ class MX_Controller
         $this->comp['linkedinhtml'] = "";
         $this->comp['whatsapphtml'] = "";
 
-        $this->comp['address'] = "1st floor Road No 1 Near Bank of India Ramkrishna Nagar Patna (800027)";
+        $this->comp['address'] = "H4JV+F8C, East Ram Krishna Nagar, Ramkrishan Nagar, Patna, Bihar – 800027, India";
         $this->comp['address1'] = "1st floor Road No 1 Near Bank of India";
-        $this->comp['address2'] = "Ramkrishna Nagar Patna";
+        $this->comp['address2'] = "East Ram Krishna Nagar Patna";
         $this->comp['addressRegion'] = "Patna";
         $this->comp['postalCode'] = "800027";
         $this->comp['companystate'] = "Bihar";

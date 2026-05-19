@@ -60,7 +60,7 @@
 <!-- Modern Mobile Menu Overlay -->
 <div class="eg-mobile-overlay" id="eg-mobile-menu">
     <div class="eg-overlay-header">
-        <img src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" class="overlay-logo">
+        <img src="<?= base_url('assets/images/logo/logo.png') ?>" alt="Logo" class="overlay-logo">
         <button class="overlay-close" id="eg-mobile-close"><i class="bi bi-x-lg"></i></button>
     </div>
     <div class="eg-overlay-content">

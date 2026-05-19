@@ -28,8 +28,18 @@
                         </div>
 
                         <span class="text-uppercase fw-bold text-orange tracking-wide">ELITE HOME RELOCATION</span>
-                        <h2 class="display-5 fw-black text-dark mt-2 mb-4">Seamless & Stress-Free <span class="dark-blue-text">House Moving</span></h2>
-                        <p class="lead text-muted mb-4 tall-line-height">Moving to a new house is a significant life event. Our elite home shifting service ensures every piece of furniture, every delicate item, and all your personal belongings are packed, transported, and unpacked with the utmost care and professionalism.</p>
+                        <h2 class="fw-black text-dark mt-2 mb-4">Top <span class="dark-blue-text">Home Shifting Services</span> For Safe, Organized, And Stress-Free Relocation Support</h2>
+                        <p class="text-muted mb-4">Looking for reliable Home Shifting support that actually makes your moving day easier instead of more confusing? That’s usually the first concern people share after dealing with delayed trucks, careless packing, or damaged furniture during earlier moves. A planned relocation needs more than transport. It needs coordination, proper packing methods, trained handling staff, and timing that works properly with your schedule.</p>
+                        
+                        <p class="text-muted mb-4">At <strong>E Gati Relocation Packers and Movers</strong>, the focus stays on practical moving support that helps families relocate without unnecessary stress. A Good Home Relocation isn't just about stuffing boxes into a truck. It involves packing rooms by the room, protecting appliances and disassembling furniture, loading weight, planning the route, and unloading at destination.</p>
+
+                        <p class="text-muted mb-4">Yes! A <b>Professional Home Relocation</b> does require investment; however, doing it professionally can result in fewer damaged appliances, fewer broken glass items, and fewer expensive replacement costs later. If you are searching for <em>Top Home Shifting Services, Best Home Shifting Services, or trusted Home Shifting Services Near Me</em>, this page explains exactly how the process works and what you should expect before booking.</p>
+                        <h3 class="fw-black text-dark mt-2 mb-4">Why Professional Home Shifting Services Make A Major Difference During Relocation</h3>
+                        <p class="text-muted mb-4">Professional Home Shifting reduces confusion on moving day. Simple as that.</p>
+                        <p class="text-muted mb-4">For instance, when handling refrigerators during relocation, trained movers keep the appliance upright during loading because compressor imbalance can create internal damage. Small technical details like this separate experienced teams from random labour arrangements.</p>
+                        <p class="text-muted mb-4">Another common issue involves sofa movement inside apartment buildings (especially narrow staircases). Experienced teams use layered corner padding before movement begins. That prevents fabric tearing and wooden edge damage.</p>
+                        <p class="text-muted mb-4">That’s exactly why organized <em>Best Home Shifting Services</em> matter.</p>
+
 
                         <!-- Features Grid -->
                         <div class="row g-4 mt-2 mb-5">
@@ -90,6 +100,23 @@
                                 <p class="text-muted small">We transport everything to your destination and carefully unload your belongings into your new home.</p>
                             </div>
                         </div>
+                        <h5 class="fw-black text-dark mt-2 mb-4">Step-By-Step Home Shifting Process That Keeps Your Move More Organized</h5>
+                        <p class="text-muted mb-4">The process starts with a relocation discussion where the moving volume, floor access, vehicle requirement, and special items are checked carefully. After that, packing materials are prepared according to household size.</p>
+                        <p class="text-muted mb-4">Packing normally begins section by section instead of randomly. Kitchen goods, electronics, books, clothing, and fragile items are separated properly. (This saves a surprising amount of unpacking time later.)</p>
+                        <p class="text-muted mb-4">Once loading begins, heavier furniture is positioned first for balanced weight distribution. Fragile cartons stay isolated near protected sections inside the vehicle.</p>
+
+                        <h5 class="fw-black text-dark mt-2 mb-4">Transparent Pricing Structure For Home Shifting Services</h5>
+                        <p class="text-muted mb-4">The cost of Home Shifting depends on several practical factors:</p>
+                        <ul>
+                            <li>Distance between locations</li>
+<li>Household size</li>
+<li>Packing material quantity</li>
+<li>Lift availability</li>
+<li>Vehicle size required</li>
+<li>Labour involvement</li>
+<li>Fragile or premium items</li>
+                        </ul>
+                        <p class="text-muted mb-4">Customers searching for <em>Best Home Shifting Services</em> often focus only on the lowest quotation. But extremely cheap pricing generally means reduced packing quality or untrained labour support.</p>
 
                         <!-- FAQ Section -->
                         <h3 class="fw-bold mb-4 mt-5 border-bottom pb-3">Frequently Asked Questions</h3>
@@ -97,36 +124,60 @@
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingOne">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
-                                        How much time does it take to pack a 3BHK house?
+                                        Are fragile items packed separately?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#homeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Typically, it takes our expert crew 5-7 hours to completely pack and load a standard 3BHK house.
+                                       Yes. Fragile household items receive layered wrapping and dedicated carton placement during Home Shifting.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingTwo">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
-                                        Do you provide boxes for personal packing?
+                                        How long does local Home Shifting usually take?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#homeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Yes, we can provide sturdy moving boxes ahead of time if you prefer to pack certain personal or highly confidential items yourself.
+                                        A standard local Home Shifting process for a 2BHK home generally takes one working day.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingThree">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
-                                        How are fragile items handled?
+                                       Do you provide interstate relocation support?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#homeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Delicate items are multi-wrapped and placed in specialized rigid cartons for maximum protection during transit.
+                                       Yes, interstate and city-to-city Home Shifting Services are available across major Indian routes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfour">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefour" aria-expanded="false" aria-controls="faqCollapsefour">
+                                      Is dismantling included in Home Shifting?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefour" class="accordion-collapse collapse" aria-labelledby="faqHeadingfour" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                       Basic dismantling and furniture reassembly support are usually included.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfive">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefive" aria-expanded="false" aria-controls="faqCollapsefive">
+                                      How can I get a moving quote?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefive" class="accordion-collapse collapse" aria-labelledby="faqHeadingfive" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                       You can contact E Gati Relocation Packers and Movers directly for inspection, consultation, and quotation support.
                                     </div>
                                 </div>
                             </div>

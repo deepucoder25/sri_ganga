@@ -28,8 +28,23 @@
                         </div>
 
                         <span class="text-uppercase fw-bold text-orange tracking-wide">ELITE CORPORATE RELOCATION</span>
-                        <h2 class="display-5 fw-black text-dark mt-2 mb-4">Professional & Efficient <span class="dark-blue-text">Office Moving</span></h2>
-                        <p class="lead text-muted mb-4 tall-line-height">Minimize downtime and ensure a smooth transition with our specialized office relocation services. From IT infrastructure and sensitive documents to heavy workstations, we handle your corporate move with precision and minimal disruption to your business operations.</p>
+                        <h2 class="fw-black text-dark mt-2 mb-4">Looking for Safe, Fast, and Properly Managed Office Relocation Support</h2>
+                        <p class="lead text-muted mb-4 tall-line-height">Office relocation sounds simple until the actual work begins. Systems need disconnecting. Documents need safe packing. Workstations cannot get damaged. And your staff still expects business operations to continue without major disruption. That is exactly why professional Office Shifting support matters.</p>
+                        <p class="text-muted mb-4">At <strong>E Gati Relocation Packers and Movers</strong>, the focus stays on organised planning instead of rushed transport. Our team handles corporate relocation services for startups, small offices, IT companies, consultancy firms, retail businesses, and multi-floor corporate setups across India. If you have been searching for <b>reliable Office Shifting Services Near Me</b>, chances are you need more than labour support. You need coordination, inventory handling, packing expertise, and safe movement of expensive office assets.</p>
+                        <h3 class="fw-black text-dark mt-2 mb-4">Complete Office Shifting Services for Corporate Relocation, Workstation Moving, IT Equipment Handling, and Commercial Office Setup Transfer</h3>
+                        <p class="text-muted mb-4">Our Top Office Shifting Services cover planning, dismantling, packing, transport, unloading, and setup assistance. The work starts after a detailed inspection of your office layout and shifting requirements.</p>
+                        <p class="text-muted mb-4">Services generally include:</p>
+                        <ul>
+                            <li>Workstation dismantling and reinstallation</li>
+<li>File and document carton packing</li>
+<li>Server and IT equipment handling</li>
+<li>Chair, desk, and conference table movement</li>
+<li>Glass partition protection packing</li>
+<li>Label-based inventory tracking</li>
+<li>Weekend and after-hours relocation support</li>
+                        </ul>
+                        <p class="text-muted mb-4">Many businesses searching for Office Shifting Near Me mainly worry about one thing, operational interruption. We address that directly through scheduled movement planning and department-wise shifting.</p>
+                        <p class="text-muted mb-4">For instance, during an IT office transfer, network systems are packed separately using anti-static wrapping materials. That small detail makes a major difference during transportation.</p>
 
                         <!-- Features Grid -->
                         <div class="row g-4 mt-2 mb-5">
@@ -91,42 +106,79 @@
                             </div>
                         </div>
 
+                         <h5 class="fw-black text-dark mt-2 mb-4">Our Office Shifting Process Keeps Work Disruption Low</h5>
+                        <p class="text-muted mb-4">Every Office Shifting project starts with assessment and planning. Before finalizing timelines, our team analyzes a variety of factors, such as entry access, elevator utilization, parking availability, furniture dimensions, server needs, and total packing volume.</p>
+                        <p class="text-muted mb-4">The relocation process moves department by department instead of shifting everything randomly. That helps businesses restart operations faster after unloading.</p>
+                        <p class="text-muted mb-4">Many companies searching online for <em>Office Shifting Services Near Me</em> specifically ask about weekend relocation. We provide Saturday night and Sunday movement support to reduce weekday business interruption.</p>
+
+                        <h6 class="fw-black text-dark mt-2 mb-4">Transparent Pricing for Office Shifting Services</h6>
+                        <p class="text-muted mb-4">The price to move an office will be determined by the size of the office, the number of workstations in the office, the floor on which the office is located, how far the office must be moved, the amount of packing material used to pack the office belongings, and the difficulty of setting up the new office location.</p>
+
+                        <p class="text-muted mb-4">Small office relocation usually costs less because setup requirements remain limited. Large corporate relocation involving server rooms, storage units, and heavy conference furniture naturally requires additional manpower and vehicle planning.</p>
+
+                        <p class="text-muted mb-4">The <em>Best Office Shifting Services</em> always explain costing clearly before booking confirmation. Hidden charges create unnecessary stress during relocation.</p>
+                        
+
                         <!-- FAQ Section -->
                         <h3 class="fw-bold mb-4 mt-5 border-bottom pb-3">Frequently Asked Questions</h3>
                         <div class="accordion elite-accordion" id="officeFaq">
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingOne">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
-                                        Can you move our office during the weekend?
+                                        How long does Office Shifting usually take?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#officeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Yes, we specialize in weekend moves to ensure zero disruption to your regular working hours.
+                                        Small office relocation may finish within one day. Large offices generally require phased movement planning.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingTwo">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
-                                        How do you handle heavy office equipment?
+                                        Do you handle IT systems and servers?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#officeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        We use specialized dollies, hydraulic lifts, and trained personnel to safely move heavy machinery and safes.
+                                        Yes. Anti-static wrapping and separate handling methods are used for sensitive electronic equipment.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="faqHeadingThree">
                                     <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
-                                        Is insurance provided for IT equipment?
+                                        Can Office Shifting happen during weekends?
                                     </button>
                                 </h2>
                                 <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#officeFaq">
                                     <div class="accordion-body text-muted bg-light">
-                                        Absolutely, we offer comprehensive coverage tailored for high-value corporate IT assets.
+                                        Absolutely. Many businesses prefer weekend relocation to avoid workflow disruption.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfour">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefour" aria-expanded="false" aria-controls="faqCollapsefour">
+                                        Do you provide Local Office Shifting Services for short-distance relocation?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefour" class="accordion-collapse collapse" aria-labelledby="faqHeadingfour" data-bs-parent="#officeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                        Yes. Internal building transfers and nearby commercial movement services are available.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-4 shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="faqHeadingfive">
+                                    <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsefive" aria-expanded="false" aria-controls="faqCollapsefive">
+                                      Is insurance available during Office Shifting?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapsefive" class="accordion-collapse collapse" aria-labelledby="faqHeadingfive" data-bs-parent="#homeFaq">
+                                    <div class="accordion-body text-muted bg-light">
+                                       Transit protection options can be discussed during quotation and inspection.
                                     </div>
                                 </div>
                             </div>
