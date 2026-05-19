@@ -41,7 +41,7 @@
 
             <!-- Nav Actions -->
             <div class="eg-nav-actions d-none d-lg-flex">
-                <a href="tel:<?= $phone ?>" class="phone-icon-circle" title="Call Us">
+                <a href="<?= $phonehtml ?>" class="phone-icon-circle" title="Call Us">
                     <i class="bi bi-telephone-fill"></i>
                 </a>
                 <a href="#" class="quote-btn-elite" data-bs-toggle="modal" data-bs-target="#qteModal">
@@ -73,10 +73,10 @@
             <li><a href="<?= site_url('contact') ?>" class="overlay-link">CONTACT</a></li>
         </ul>
         <div class="overlay-footer mt-5">
-            <a href="tel:<?= $phone ?>" class="overlay-cta-phone mb-3">
+            <a href="<?= $phonehtml ?>" class="overlay-cta-phone mb-3">
                 <i class="bi bi-telephone-fill"></i> <?= $phone ?>
             </a>
-            <a href="#" class="quote-btn-elite w-100 text-center" data-bs-toggle="modal" data-bs-target="#quoteModal">
+            <a href="#" class="quote-btn-elite w-100 text-center" data-bs-toggle="modal" data-bs-target="#qteModal">
                 QUICK QUOTE <i class="bi bi-send-fill"></i>
             </a>
         </div>

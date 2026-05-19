@@ -168,11 +168,13 @@
     display: flex;
     flex-direction: column;
     transform: translateX(100%);
-    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    visibility: hidden;
+    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1), visibility 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .eg-mobile-overlay.active {
     transform: translateX(0);
+    visibility: visible;
 }
 
 .eg-overlay-header {
@@ -199,7 +201,6 @@
     flex-grow: 1;
     overflow-y: auto;
 }
-
 .overlay-menu {
     list-style: none;
     padding: 0;
@@ -213,7 +214,6 @@
 .overlay-link {
     text-decoration: none;
     color: var(--text-main);
-    font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -236,6 +236,12 @@
 @media (max-width: 991px) {
     .eg-nav-spacer {
         height: 100px;
+    }
+
+    .eg-top-bar .container,
+    .eg-main-nav .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 }
 
